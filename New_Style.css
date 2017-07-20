@@ -387,12 +387,12 @@ span.success,p.success {
 
 .section.powered-by .list-wrap {
   width: 980px;
-  margin: 0 auto;
-  min-height: 82px;
+  margin: 10px auto !important;
+  min-height: 1px !important;
 }
 
 .section.powered-by p {
-  margin-right: 150px;
+  margin-right: 0px !important;
   line-height: 1.3em;
 }
 
@@ -3289,7 +3289,7 @@ div.change-password #user_edit .formrow label,.registration-form ol li.input lab
 }
 
 .uc-poweredby-nusdigital-logo {
-  border-top: 10px solid #252c36;
+  border-top: 0px !important;
 }
 
 #user_profile {
