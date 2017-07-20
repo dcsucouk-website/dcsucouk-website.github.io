@@ -372,7 +372,7 @@ span.success,p.success {
 .section.union-footer {
   margin: 20px auto 0;
   width: 980px;
-  background: url(/themes/dcsu_default/images/union-footer-logo.png) no-repeat 8px top transparent;
+  background: none !important;
 }
 
 .section.powered-by {
@@ -387,12 +387,12 @@ span.success,p.success {
 
 .section.powered-by .list-wrap {
   width: 980px;
-  margin: 10px auto !important;
-  min-height: 1px !important;
+  margin: 0 auto;
+  min-height: 82px;
 }
 
 .section.powered-by p {
-  margin-right: 0px !important;
+  margin-right: 150px;
   line-height: 1.3em;
 }
 
@@ -1250,7 +1250,7 @@ span.success,p.success {
 }
 
 .section.union-footer .fourcol.column-content,.section.union-footer .sixcol.column-content,.section.union-footer .threecol.column-content {
-  background: url(/themes/dcsu_default/images/footer-hr.png) no-repeat scroll right top transparent;
+  background: none !important;
   min-height: 150px;
 }
 
@@ -3289,7 +3289,7 @@ div.change-password #user_edit .formrow label,.registration-form ol li.input lab
 }
 
 .uc-poweredby-nusdigital-logo {
-  border-top: 0px !important;
+  border-top: 10px solid #252c36;
 }
 
 #user_profile {
