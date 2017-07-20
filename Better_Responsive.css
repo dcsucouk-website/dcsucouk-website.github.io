@@ -53,3 +53,77 @@
 @media screen and (min-width: 481px){
    // .row {margin:0px 4% 0px 4% !important;}
 }
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Luckiest+Guy|Monoton');
+.page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
+    font-family: 'Luckiest Guy', cursive;
+    position: relative;
+    font-size: 6em;
+    line-height: .9em;
+    color: #080f56;
+    text-shadow: -5px 5px 0 rgba(40,40,40,0.3);
+    text-shadow: -5px 5px 0 #ddd;
+    word-break: break-word;
+    border-bottom: 0;
+    padding: 5% 0;
+    z-index: 1;
+}
+.page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
+    content: '';
+    position: absolute;
+    left: 6%;
+    top: 0;
+    opacity: .3;
+    width: 60%;
+    height: 90%;
+    background-color: #42d9f4;
+    z-index: -1;
+}
+.content .row .content-wrap.ninecol > div { background: none !important}
+.uc-widget-articles-container { background-color: white; padding: 10px }
+.uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail>a img { width: 100% }
+.uc-widget-article-header {display: none; visibility: hidden}
+.uc-widget-article-more-link a::before { content: ' '; }
+.uc-widget-article-more-link a::after { content: ' '; }
+.uc-widget-article-more-link a { background-color: #252c36; color: white !important}
+
+.uc-widget-student-voices-wrapper {background-color: white; height: 100%; padding: 0px 10px 0px 10px}
+.threecol.left-nav-content {margin: 0px 0px 0px 10px } 
+.bottom, .bottom-union { background: #FFF !important }
+.wrapper {background: transparent !important }
+body
+    {
+        //background-color: black !important;
+        background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;
+        background-size: auto 100% !important;
+        background-repeat: no-repeat !important;
+        background-position: left top !important;
+background-attachment: fixed !important;
+    }
+.nav-wrap {
+    background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white;
+    position: relative;
+    margin: 0 auto;
+}
+.section.grid { margin-top: 10px; margin-bottom: 10px; background: white }
+.section.grid h2 { margin-left: 5px; margin-top: 5px}
+
+#columned {
+    padding: 0px;
+    background: #fff;
+    margin: 10px 0px 10px 0px;
+}
+#columned-wrap {
+margin: 0px 10px 0px 10px 
+}
+.tab .ui-widget-header { background: #FFF !important}
+.tab .ui-tabs .ui-tabs-panel { background: none !important}
+.row.content {background: #FFF;}
+.page-content-html .content {width: 980px !important; }
+.threecol { width: 25% }
+.threecol.last { float: right }
+.ninecol {width: 75%; margin-right: 0px }
+.uc-student-voice-widget-category li a { font-size: 19px !important }
+#union-logo a { background: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120027/optimized/SU_General_Logo_-_LARGE_TRANSPARENT_WHITE_OUTLINE.png') no-repeat scroll center center transparent !important; background-size: 100% !important}
