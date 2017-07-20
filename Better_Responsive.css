@@ -1,0 +1,47 @@
+@media screen and (min-width: 981px){
+
+.ninecol {
+
+}
+
+.threecol {
+
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width: 980px){
+
+.ninecol {
+
+}
+
+.threecol {
+
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width: 767px){
+
+.ninecol {
+
+}
+
+.threecol {
+
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+.ninecol {
+
+}
+
+.threecol {
+
+}
+
+}
