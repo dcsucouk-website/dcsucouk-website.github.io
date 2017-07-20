@@ -12,6 +12,7 @@
 .ninecol { width:100% !important;}
 .threecol {width: 100% !important;margin: 0px !important;clear: both !important;float: left !important; }
 .uc-widget-student-voices-wrapper {padding:0px !important}
+.content-wrap.home-content-wrap.subsites.ninecol.last {padding-left:0px;}
 }
 
 @media screen and (max-width: 480px){
@@ -19,6 +20,8 @@
 .threecol {width: 100% !important;clear: both !important;float: left !important;}
 .uc-widget-student-voices-wrapper {    padding: 0px !important;}
 }
+/* ////////////   ALL TIME */
+.page-content-html .content { max-width: 980px !important; width:100% !important; }
 
 
 @media screen and  (min-width: 981px){
@@ -41,9 +44,12 @@
 }
 
 @media screen and (max-width: 480px){
-
 .ninecol {}
 .threecol {}
 .uc-widget-student-voices-wrapper {}
 .hidden-sm {display:none; }
+}
+
+@media screen and (min-width: 481px){
+   // .row {margin:0px 4% 0px 4% !important;}
 }

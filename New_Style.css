@@ -3975,7 +3975,7 @@ abbr {
   }
 
   .content .row {
-    margin: 4%;
+    margin: 0% 2% !important;
     width: 92%;
   }
 
@@ -4176,7 +4176,8 @@ abbr {
   }
 
   .row.content .row {
-    width: 93%;
+    width: 100% !important;
+    max-width: 96% !important;
   }
 
   .bottom .column-content.footerhtmlfooterhtml,.bottom-union .column-content.footerhtmlfooterhtml,.bottom-subsite .column-content.footerhtmlfooterhtml {
@@ -4420,7 +4421,7 @@ abbr {
   }
 
   .breadcrumb {
-    margin: 10px;
+    /* margin: 10px; */
   }
 
   .home-content-html .breadcrumb {
