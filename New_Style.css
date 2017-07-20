@@ -5433,7 +5433,7 @@ abbr {
   }
 
   .section.powered-by .list-wrap p {
-    width: 160px;
+    width: 100% !important;
     line-height: 1.3em;
   }
 

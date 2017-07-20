@@ -3454,9 +3454,7 @@ body {
   float: left;
 }
 
-.floatRight {
-  float: right;
-}
+.floatRight {/* float: none !important; *//* width: 100% !important; */}
 
 .displayBlock {
   display: block;
