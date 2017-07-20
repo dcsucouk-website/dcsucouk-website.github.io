@@ -3417,13 +3417,13 @@ img {
 }
 
 .uc-poweredby-nusdigital-logo {
-  background: #FFF !important;
+  background: #fff !important;
 }
 
 .uc-poweredby-nusdigital-logo-wrapper {
-  width: 980px !important;
+  width: 960px;
   margin: 0 auto;
-  padding: 10px 0 10px 0px !important;
+  padding: 10px 0 0;
 }
 
 .uc-poweredby-nusdigital-logo img {
@@ -13819,7 +13819,7 @@ table.table-grid tr:nth-child(even) {
   }
 
   .uc-lang-active-welsh .myaccount-shopping-details .order-grid td:nth-of-type(3):before {
-    content: "Swm yr archeb (Ã‚Â£)";
+    content: "Swm yr archeb (Â£)";
   }
 
   .uc-lang-active-welsh .myaccount-shopping-details .order-grid td:nth-of-type(4):before {
