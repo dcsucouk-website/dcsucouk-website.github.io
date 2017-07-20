@@ -1271,7 +1271,7 @@ span.success,p.success {
   font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
   font-weight: normal;
   color: #333333;
-  border-bottom: 1px solid #E7E7E7;
+  border-bottom: 0px !important;
   display: block;
   padding: 5px 0;
   text-shadow: -1px -1px white,2px 2px white;
@@ -1281,9 +1281,10 @@ span.success,p.success {
 .section.union-footer .fourcol.column-content p,.section.union-footer .sixcol.column-content p,.section.union-footer .threecol.column-content p {
   font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
   font-weight: normal;
-  margin: 10px 25px 10px 0;
+  /* margin: 10px 25px 10px 0; */
   color: #333333;
   font-size: 0.7em;
+  border:  0px !important;
 }
 
 .section.union-footer .fourcol.column-content .award-icons,.section.union-footer .sixcol.column-content .award-icons,.section.union-footer .threecol.column-content .award-icons {
@@ -4126,7 +4127,7 @@ abbr {
   }
 
   .section.union-footer .fourcol.column-content,.section.union-footer .sixcol.column-content,.section.union-footer .threecol.column-content {
-    background: url("/themes/dcsu_default/images/footer-vr.png") no-repeat scroll bottom center transparent;
+    background: none !important;
     min-height: 170px;
     padding: 0 0px 20px 0px;
   }

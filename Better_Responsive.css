@@ -121,7 +121,7 @@ margin: 0px 10px 0px 10px
 .tab .ui-widget-header { background: #FFF !important}
 .tab .ui-tabs .ui-tabs-panel { background: none !important}
 .row.content {background: #FFF;}
-.page-content-html .content {width: 980px !important; }
+
 .threecol { width: 25% }
 .threecol.last { float: right }
 .ninecol {width: 75%; margin-right: 0px }
