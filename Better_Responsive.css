@@ -1,7 +1,7 @@
 @media screen and (min-width: 981px){
 
 .ninecol {
-
+ 
 }
 
 .threecol {
@@ -25,13 +25,12 @@
 @media screen and (min-width:481px) and (max-width: 767px){
 
 .ninecol {
-
+ width:100% !important;
 }
 
-.threecol {
+.threecol {width: 100% !important;margin: 0px !important;clear: both !important;float: left !important; }
 
-}
-
+.uc-widget-student-voices-wrapper {padding:0px !important}
 }
 
 @media screen and (max-width: 480px){
@@ -40,8 +39,8 @@
 
 }
 
-.threecol {
-
+.threecol {width: 100% !important;clear: both !important;float: left !important;}
+.uc-widget-student-voices-wrapper {
+    padding: 0px !important;
 }
-
 }
