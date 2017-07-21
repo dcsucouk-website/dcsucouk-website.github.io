@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'CenturyGothic';
   src: url("fonts/CenturyGothic.eot");
   src: url("fonts/CenturyGothic.eot?#iefix") format("embedded-opentype"),url("fonts/CenturyGothic.woff") format("woff"),url("fonts/CenturyGothic.ttf") format("truetype"),url("fonts/CenturyGothic.svg#CenturyGothic") format("svg");
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family:'CenturyGothicBold';src:url("fonts/CenturyGothicBold.eot");src:url("fonts/CenturyGothicBold.eot?#iefix") format("embedded-opentype"),url("fonts/CenturyGothicBold.woff") format("woff"),url("fonts/CenturyGothicBold.ttf") format("truetype"),url("fonts/CenturyGothicBold.svg#CenturyGothicBold") format("svg");font-weight:normal;font-style:normal;
-}
+}*/
 
 html {
   background: #f4f4f4;
@@ -16,7 +16,7 @@ html {
 
 html body {
   background: transparent;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   margin: 0 auto;
 }
 
@@ -83,8 +83,8 @@ em strong,strong em {
 }
 
 .logged-in {
-  color: black;
-  font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 0.75em;
   padding: 5px 0px;
@@ -96,7 +96,7 @@ em strong,strong em {
 .logged-in span.username {
   text-transform: capitalize;
   color: black;
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: normal;
 }
 
@@ -1353,9 +1353,8 @@ span.success,p.success {
 }
 
 .tree-navigation-structure #uc-left-navigation {
-  font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 0.9em !important;
 }
 
 .threecol.tree-navigation {
@@ -1405,14 +1404,9 @@ span.success,p.success {
 }
 
 .tree-navigation ul.nav-level-one li h3 a {
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  background: url("/themes/dcsu_default/images/leftmenu-title-arrow.png") no-repeat scroll right center transparent;
-  padding: 0px;
-  font-size: 0.95em;
-  color: white;
-  word-wrap: break-word;
+  font-family: 'Roboto', sans-serif !important;
   padding: 0px 15px 0px 0px;
+  font-weight: bold !important;
 }
 
 .tree-navigation ul.nav-level-one h3 {
@@ -1545,11 +1539,8 @@ span.success,p.success {
 }
 
 .content .row .content-wrap p {
-  font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 0.9em;
-  color: #333333;
-  margin: 0px 0px 10px 0px;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0px !important;
 }
 
 .content .row .content-wrap ul {
@@ -1822,7 +1813,7 @@ h2 {
   font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
   font-weight: normal;
   margin: 15px 15px 0;
-  text-transform: uppercase;
+  text-transform: capitalize !important;
 }
 
 .tree-navigation ul li {
@@ -7564,7 +7555,13 @@ abbr {
   height: 316px !important;
   padding: 10px !important
   }
+  
 #volunteering-home-grid-wrap .grid-carousel {
     height: 296px !important;
     margin: 10px auto 10px auto !important
+}
+
+.content .row .content-wrap table td {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 0.9em !important;
 }
