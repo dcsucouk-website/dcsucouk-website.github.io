@@ -7565,3 +7565,9 @@ abbr {
     font-family: 'Roboto', sans-serif !important;
     font-size: 0.9em !important;
 }
+
+#latest-opportunities-column-content .date{
+  display: none !important;
+}
+
+#volunteering-home-column-header { padding-top:10px; }

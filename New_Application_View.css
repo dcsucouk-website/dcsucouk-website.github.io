@@ -9899,7 +9899,7 @@ abbr {
 
 .uc-widget-articles-container {
   margin: 10px 0;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .content .row .content-wrap .uc-widget-articles-container ul.uc-widget-articles-list {
@@ -10132,7 +10132,7 @@ abbr {
   color: #333;
   text-decoration: none;
   line-height: 1.0;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-one .headline a,.uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-two .headline a {
