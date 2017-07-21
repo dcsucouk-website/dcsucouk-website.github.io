@@ -16,19 +16,24 @@ html {
 
 html body {
   background: transparent;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
 
 strong {
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
+  /*font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
+  font-weight: normal;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold
 }
 
 em {
-  font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
+  /*font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
   font-weight: normal;
-  font-style: italic;
+  font-style: italic;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: italic
 }
 
 em strong,strong em {
@@ -1544,7 +1549,7 @@ span.success,p.success {
   font-weight: normal;
   font-size: 0.9em;
   color: #333333;
-  margin: 0px 0px 0px 0px !important;
+  margin: 0px 0px 10px 0px;
 }
 
 .content .row .content-wrap ul {
