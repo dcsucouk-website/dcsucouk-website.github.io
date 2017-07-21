@@ -70,7 +70,7 @@
     text-shadow: -5px 5px 0 #ddd;
     word-break: break-word;
     border-bottom: 0;
-    padding: 0px !important;
+    padding: 5px 0px 15px 0px !important;
     z-index: 1;
 }
 .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
