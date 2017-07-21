@@ -709,9 +709,8 @@ span.success,p.success {
   position: absolute;
   right: 0;
   z-index: 1000;
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  background: url(/themes/dcsu_default/images/grid-name-bg.png) left top repeat-x #4b4b4d;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important;
 }
 
 .grid-carousel .two-by-two .grid-two-by-two a {
