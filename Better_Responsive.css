@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 480px){
 .ninecol {}
-.threecol {width: 100% !important;clear: both !important;float: left !important;}
+.threecol {width: 100% !important;clear: both !important;float: left !important; margin:0px !important}
 .uc-widget-student-voices-wrapper {    padding: 0px !important;}
 }
 /* ////////////   ALL TIME */

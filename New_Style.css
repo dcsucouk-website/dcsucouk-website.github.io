@@ -1526,7 +1526,7 @@ span.success,p.success {
 }
 
 .content .row .content-wrap {
-  margin: 10px 0;
+  margin: 15px 0 !important;
 }
 
 .content .row .content-wrap.ninecol > div {
@@ -5224,8 +5224,8 @@ abbr {
   }
 
   .row.content .row {
-    width: 93%;
-    margin: 0 auto;
+    width: 93% !important;
+    margin: 0 auto !important;
   }
 
   .home-content-html .content {
