@@ -1565,14 +1565,9 @@ span.success,p.success {
 
 .content .row .content-wrap h1 {
   border-bottom: 1px solid #e7e7e7;
-  background: url(/themes/dcsu_default/images/heading-bg.png) no-repeat 0 8px;
+  background: none !important;
   color: black;
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 1.3em;
-  margin: 0 0 10px;
-  padding: 5px 0px 10px 30px;
-  text-shadow: 0 0 0 #CCCCCC;
+  font-family: 'Fredericka the Great', cursive !important;
 }
 
 .content .row .content-wrap h2 {

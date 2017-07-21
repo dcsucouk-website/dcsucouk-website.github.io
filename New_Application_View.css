@@ -3719,6 +3719,7 @@ div#notice.info {
 
 .row.top-subsite {
   top: 38px;
+  margin-bottom: 10px !important;
 }
 
 .menu {

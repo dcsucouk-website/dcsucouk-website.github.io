@@ -61,16 +61,16 @@
 }
 
 .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fredericka the Great', cursive !important;
     position: relative;
-    font-size: 6em;
+    font-size: 6em !important;
     line-height: .9em;
     color: #000;
     text-shadow: -5px 5px 0 rgba(40,40,40,0.3);
     text-shadow: -5px 5px 0 #ddd;
     word-break: break-word;
     border-bottom: 0;
-    padding: 5% 0;
+    padding: 0px !important;
     z-index: 1;
 }
 .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
