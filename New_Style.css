@@ -3965,7 +3965,7 @@ abbr {
 
   .column {
     float: none;
-    margin: 0 auto 10px;
+    margin: 0 auto 10px !important;
     width: 97%;
   }
 

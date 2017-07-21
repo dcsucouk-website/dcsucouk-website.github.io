@@ -3719,7 +3719,7 @@ div#notice.info {
 
 .row.top, .row.top-subsite {
   top: 38px;
-  margin-bottom: 10px !important;
+  margin-bottom: 20px !important;
 }
 
 .menu {
@@ -21390,3 +21390,5 @@ div.scrollableArea {
     top: 40px;
   }
 }
+
+#social-content-wrap {padding: 10px }
