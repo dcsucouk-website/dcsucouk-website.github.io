@@ -11466,12 +11466,12 @@ blockquote {
 }
 
 .uc-banner-hover {
-  background: url(default/banner-trans-bg.png) repeat scroll 0 0 transparent;
+  /* background: none !important; */
   bottom: 0;
   color: #fff;
   left: 0;
   padding: 0;
-  position: absolute;
+  /* position: relative !important; */
   top: 0;
 }
 

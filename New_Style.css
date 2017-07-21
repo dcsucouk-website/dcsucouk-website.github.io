@@ -7567,3 +7567,10 @@ abbr {
 #volunteering-home-column-header { padding-top:10px; }
 
 .sub-site-page-html .section.default-body { padding:10px; }
+
+#volunteering-opportunity-banner .page-details { clear:both !important }
+#volunteering-opportunity-banner .uc-page-block.uc-has-banner a { clear: both; }
+#volunteering-opportunity-banner .uc-banner-hover { clear:both !important; position: relative !important; background: none !important}
+#volunteering-opportunity-banner .uc-banner-hover-wrapper { padding:0px !important}
+#volunteering-opportunity-banner .thumbnail-image { align-items:center; width: 100%; overflow:hidden; height: 150px !important }
+#volunteering-opportunity-banner .thumbnail-image>img { width:100%; margin:auto auto !important}
