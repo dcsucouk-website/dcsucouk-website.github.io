@@ -3717,7 +3717,7 @@ div#notice.info {
   width: 980px;
 }
 
-.row.top-subsite {
+.row.top, .row.top-subsite {
   top: 38px;
   margin-bottom: 10px !important;
 }
