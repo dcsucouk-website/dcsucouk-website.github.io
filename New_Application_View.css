@@ -2969,9 +2969,9 @@ figure img {
   padding-right: 20px;
 }
 
-.row {
-  width: 100%;
-  margin: 0 auto;
+.row.header {
+  /* width: 100%; */
+  margin: 0px auto 20px !important;
 }
 
 .onecol,.twocol,.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol,.ninecol,.tencol,.elevencol,.twelvecol {

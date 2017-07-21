@@ -569,7 +569,7 @@ span.success,p.success {
 .tab .ui-tabs .ui-tabs-panel {
   background: url("/themes/dcsu_default/images/tabpanelbg.png") no-repeat scroll center bottom / cover #f9f9f9;
   margin: 0 auto;
-  min-height: 300px !important;
+  min-height: 298px !important;
   padding: 0px !important;
   width: auto;
   border-top: 3px solid #384352;
@@ -670,7 +670,7 @@ span.success,p.success {
   position: static;
   margin: 0px auto !important;
   width: 96%;
-  height: 330px;
+  height: 325px !important;
 }
 
 .grid-carousel a {
@@ -4979,6 +4979,7 @@ abbr {
 
   .home-content-html .content {
     padding: 20px 0 10px;
+    margin-bottom:  20px !important;
   }
 
   .sub-site-home-html .content,.sub-site-page-html .content,.page-content-html .content {
