@@ -4348,7 +4348,8 @@ div#notice.info {
 }
 
 .grid-carousel ul {
-  height: 330px;
+  min-height: 1px !important;
+  height: 296px !important;
 }
 
 .grid-carousel li {
@@ -4436,8 +4437,8 @@ div#notice.info {
   font-size: 1.2em;
 }
 
-.section {
-  margin-bottom: 20px;
+.section.grid {
+  margin-bottom: 0px !important;
 }
 
 .section h2 {
@@ -11034,7 +11035,8 @@ input.button.share-button {
 
 .tabs.ui-tabs .tab-content-wrapper-box {
   position: relative;
-  min-height: 330px;
+  min-height: 296px !important;
+  height: 330px !important;
 }
 
 .site-addthis {
