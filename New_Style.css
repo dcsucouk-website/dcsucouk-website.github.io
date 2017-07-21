@@ -7554,3 +7554,12 @@ abbr {
   top: 0;
   z-index: 1000;
 }
+
+#volunteering-home-grid-wrap { 
+  height: 316px !important;
+  padding: 10px !important
+  }
+#volunteering-home-grid-wrap .grid-carousel {
+    height: 296px !important;
+    margin: 10px auto 10px auto !important
+}
