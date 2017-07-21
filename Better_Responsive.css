@@ -138,3 +138,9 @@ margin: 0px 10px 0px 10px
 #union-logo a { background: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120027/optimized/SU_General_Logo_-_LARGE_TRANSPARENT_WHITE_OUTLINE.png') no-repeat scroll center center transparent !important; background-size: 100% !important}
 
 #home-column-1.section { margin: 0px !important }
+
+#uc-articles-details .eightcol { width:100% !important }
+
+#uc-articles-details { margin: 10px 5px !important }
+
+.article-details-wrapper .time { display: none !important }

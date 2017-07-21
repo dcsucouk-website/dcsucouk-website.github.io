@@ -9681,6 +9681,7 @@ abbr {
 .article-addthis .addthis_toolbox,.eshop-addthis .addthis_toolbox,.site-addthis .addthis_toolbox {
   float: left;
   margin-bottom: 10px;
+  width: 240px !important;
 }
 
 .addthis_button_facebook_like iframe.fb_iframe_widget_lift {
