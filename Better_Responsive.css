@@ -3,6 +3,10 @@
 .threecol {}
 }
 
+@media screen and (min-width: 840px) {
+    #union-logo a { margin-left: 0px !important; }
+}
+
 @media screen and (min-width:768px) and (max-width: 980px){
 .ninecol {}
 .threecol {}
