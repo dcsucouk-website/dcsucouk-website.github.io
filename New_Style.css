@@ -4276,7 +4276,7 @@ abbr {
   }
 
   .sub-site-page-html .content,.sub-site-home-html .content {
-    padding: 25px 0 10px 0;
+    padding: 0px !important;
     width: 98%;
   }
 
@@ -4707,7 +4707,7 @@ abbr {
   .section.union-footer .fourcol.column-content,.section.union-footer .sixcol.column-content,.section.union-footer .threecol.column-content {
     background: url("/themes/dcsu_default/images/footer-vr.png") no-repeat scroll center bottom transparent;
     background-size: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 0px !important;
   }
 
   .page-search .search-box .search-box-wrapper {
