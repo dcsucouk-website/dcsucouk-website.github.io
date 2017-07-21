@@ -1544,7 +1544,7 @@ span.success,p.success {
   font-weight: normal;
   font-size: 0.9em;
   color: #333333;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px !important;
 }
 
 .content .row .content-wrap ul {
