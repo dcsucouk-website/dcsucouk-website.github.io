@@ -56,15 +56,12 @@
    #volunteering-home-grid .jcarousel-next {display: none !important; }
 }
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Boogaloo|Luckiest+Guy|Monoton');
 .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Fredericka the Great', cursive;
     position: relative;
     font-size: 6em;
     line-height: .9em;
-    color: #080f56;
+    color: #000;
     text-shadow: -5px 5px 0 rgba(40,40,40,0.3);
     text-shadow: -5px 5px 0 #ddd;
     word-break: break-word;
