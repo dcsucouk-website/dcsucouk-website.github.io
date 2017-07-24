@@ -28,6 +28,9 @@
 .uc-widget-student-voices-wrapper {    padding: 0px !important;}
 #footer .fourcol.column-content { clear: both !important; float: left !important; width: 100% !important; margin: auto !important}
 .uc-articles-module-wrapper .featured-image img { width:100% !important }
+#latest-articles .uc-widget-article-header .uc-widget-article-more-link {
+  display: none;
+}
 }
 /* ////////////   ALL TIME */
 .page-content-html .content { max-width: 980px !important; width:100% !important; }
@@ -103,7 +106,7 @@
 .uc-widget-article-more-link a::after { content: ' '; }
 .uc-widget-article-more-link a {/* background-color: #252c36; */color: white !important;}
 
-.uc-widget-student-voices-wrapper {background-color: white;height: 100%;padding: 0px 10px 0px 10px;}
+.uc-widget-student-voices-wrapper {background-color: white; height: 100%; padding: 0px 10px 0px 10px}
 .threecol.left-nav-content {margin: 0px 0px 0px 10px } 
 .bottom, .bottom-union { background: #FFF !important }
 .wrapper {background: transparent !important }
