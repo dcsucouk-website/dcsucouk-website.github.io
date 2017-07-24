@@ -3459,7 +3459,7 @@ abbr {
     width: 120px;
     z-index: 1000;
     top: 15px;
-    margin: 0px !important;
+    /* margin: 0px !important; */
   }
 
   #union-logo a {
@@ -7247,8 +7247,8 @@ abbr {
 
   .top-ad a {
     display: block;
-    width: 95%;
-    margin: 0 auto;
+    width: 100% !important;
+    margin: auto !important;
   }
 }
 
@@ -7267,11 +7267,11 @@ abbr {
 @media only screen and (max-width:480px) {
   .top-ad {
     left: 0;
-    padding: 2% 2% 0;
+    padding: 0px !important;
     position: relative;
     right: 0;
-    /* top: 10px !important; */
-    width: 96%;
+    top: 0px !important;
+    width: 100% !important;
   }
 }
 
