@@ -7609,15 +7609,11 @@ a:-webkit-any-link {
   background-color: #384352;
 }
 
-#columned .page-title {
-  background-color: transparent !important;
-  font-size: 2.2em;
-  padding:10px
-}
+
 #columned .page-details { 
   width: 260px !important;
   bottom: 20px !important;  
-  height: 85px !important;
+  height: 82px !important;
   background-color: transparent !important;
   background: url('images/title_bg.png');
   background-size: 100% !important;
@@ -7649,4 +7645,11 @@ a:-webkit-any-link {
 
 #columned .page-details .page-title {
   color: white;  
+  background-color: transparent !important;
+  font-size: 2.2em;
+  padding: 10px 10px 5px 10px !important
+}
+#columned .page-details .custom-title {
+  padding: 0px 10px 0px 10px !important;
+
 }
