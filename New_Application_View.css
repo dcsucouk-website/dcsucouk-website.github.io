@@ -3868,7 +3868,7 @@ div#notice.info {
   float: right;
   position: relative;
   right: 10px;
-  top: 0 !important;
+  /* top: 0 !important; */
   width: auto;
   line-height: 1em;
   margin: 0 5px 0 0;
@@ -13072,13 +13072,13 @@ table.table-grid tr:nth-child(even) {
     display: block;
     height: 25px;
     padding: 5px;
-    background: #ccc;
+    background: #ccc !important;
     font-size: 1em;
     text-decoration: none;
-    color: #000;
+    color: #000 !important;
     text-transform: uppercase;
-    font-weight: bold;
-    box-shadow: 0 3px 3px #999;
+    font-weight: bold !important;
+    box-shadow: 0 3px 3px #999 !important;
     position: absolute;
     left: 0;
     right: 0;
@@ -13184,8 +13184,8 @@ table.table-grid tr:nth-child(even) {
 
   .cart-account {
     z-index: 1000;
-    top: 15px !important;
-    right: 10px !important;
+    /* top: 15px !important; */
+    /* right: 10px !important; */
   }
 
   #right-content h1 {
@@ -13656,7 +13656,7 @@ table.table-grid tr:nth-child(even) {
 @media handheld,only screen and (max-width:685px) {
   .cart-account {
     position: absolute;
-    top: 40px !important;
+    /* top: 40px !important; */
     z-index: 1000;
   }
 

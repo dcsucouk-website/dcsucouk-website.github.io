@@ -56,6 +56,39 @@
 .uc-widget-articles-container { padding: 10px 0px 10px 0px !important; }
 #social-content-wrap { padding:0px !important; }
 .hidden-md {display:none;}
+
+.header-wrap { 
+    position: absolute;
+    top:40px !important;
+    padding: 0px !important;
+    height: 220px !important;
+}
+
+#union-logo {
+    position: absolute !important;
+    top: 40px !important;
+}
+
+.cart-account { 
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+    
+}
+
+.search.page-search {
+    position: absolute !important;
+    top: 100px !important;
+    height: 20px !important;
+}
+
+.top-ad {
+    /* position: absolute !important; */
+    /* top: 100px !important; */
+    /* left:0px !important; */
+    /* height:50px !important; */
+    /* z-index: 1000; */
+}
 }
 
 @media screen and (max-width: 480px){
