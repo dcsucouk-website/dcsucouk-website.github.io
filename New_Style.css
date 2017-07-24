@@ -23,8 +23,8 @@ html body {
 strong {
   /*font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
   font-weight: normal;*/
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important;
 }
 
 em {
@@ -384,10 +384,7 @@ span.success,p.success {
   background: url("/themes/dcsu_default/images/footer_bg.png") repeat-x scroll center top #252c36;
   padding: 5px 0px;
   border-top: 3px solid #181e25;
-  font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 0.75em;
-  color: white;
+  font-family: 'Roboto', sans-serif !important;
   margin-bottom: 0px !important;
 }
 
@@ -1265,32 +1262,18 @@ span.success,p.success {
 }
 
 .section.union-footer .fourcol.column-content .page-title,.section.union-footer .sixcol.column-content .page-title,.section.union-footer .threecol.column-content .page-title {
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  font-size: 0.9em;
-  color: black;
-  text-transform: uppercase;
-  text-shadow: -1px -1px white,2px 2px white;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .section.union-footer .fourcol.column-content p a,.section.union-footer .sixcol.column-content p a,.section.union-footer .threecol.column-content p a {
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  color: #333333;
-  border-bottom: 0px !important;
-  display: block;
-  padding: 5px 0;
-  text-shadow: -1px -1px white,2px 2px white;
-  text-decoration: none;
+  font-family: 'Roboto', sans-serif !important;
+  border: 0px !important;
+  padding: 0px !important;
 }
 
 .section.union-footer .fourcol.column-content p,.section.union-footer .sixcol.column-content p,.section.union-footer .threecol.column-content p {
-  font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  /* margin: 10px 25px 10px 0; */
-  color: #333333;
-  font-size: 0.7em;
-  border:  0px !important;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 3px !important;
 }
 
 .section.union-footer .fourcol.column-content .award-icons,.section.union-footer .sixcol.column-content .award-icons,.section.union-footer .threecol.column-content .award-icons {
@@ -1321,8 +1304,8 @@ span.success,p.success {
   width: auto;
   background: url("/themes/dcsu_default/images/breadcrumb-icon.png") no-repeat scroll 10px 10px transparent;
   padding: 5px 0 5px 30px;
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bolder !important;
 }
 
 .breadcrumb #crumbs {
@@ -3482,6 +3465,7 @@ abbr {
     width: 120px;
     z-index: 1000;
     top: 15px;
+    margin: 0px !important;
   }
 
   #union-logo a {
