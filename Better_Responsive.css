@@ -51,6 +51,14 @@
 
 @media screen and (max-width: 767px){
 
+#main-menu .nav-wrap ul {
+  margin-top:56px !important;
+}
+
+#main-menu .nav-wrap ul li ul{
+  margin-top:0px !important;
+}
+
 .ninecol {}
 .threecol { }
 .uc-widget-articles-container { padding: 10px 0px 10px 0px !important; }
@@ -78,7 +86,7 @@
 
 .search.page-search {
     position: absolute !important;
-    top: 100px !important;
+    top: 150px !important;
     height: 20px !important;
 }
 
