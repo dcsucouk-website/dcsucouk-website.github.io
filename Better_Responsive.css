@@ -34,6 +34,7 @@
 
 @media screen and  (min-width: 981px){
 .hidden-xl {display: none; }
+#union-logo { margin: 10px 10px !important }
 }
 
 @media screen and  (max-width: 980px){
@@ -41,6 +42,7 @@
 .ninecol {}
 .threecol {}
 .hidden-lg {display:none;}
+#union-logo { margin: 0px !important }
 }
 
 @media screen and (max-width: 767px){
