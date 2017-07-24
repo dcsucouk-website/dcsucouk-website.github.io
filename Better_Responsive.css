@@ -103,7 +103,7 @@
 .uc-widget-article-more-link a::after { content: ' '; }
 .uc-widget-article-more-link a {/* background-color: #252c36; */color: white !important;}
 
-.uc-widget-student-voices-wrapper {background-color: white; height: 100%; padding: 0px 10px 0px 10px}
+.uc-widget-student-voices-wrapper {background-color: white;height: 100%;padding: 0px 10px 0px 10px;}
 .threecol.left-nav-content {margin: 0px 0px 0px 10px } 
 .bottom, .bottom-union { background: #FFF !important }
 .wrapper {background: transparent !important }
