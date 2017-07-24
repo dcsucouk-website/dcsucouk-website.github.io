@@ -7560,3 +7560,12 @@ abbr {
 #volunteering-opportunity-banner .uc-banner-hover-wrapper { padding:0px !important}
 #volunteering-opportunity-banner .thumbnail-image { align-items:center; width: 100%; overflow:hidden; height: 150px !important }
 #volunteering-opportunity-banner .thumbnail-image>img { width:100%; margin:auto auto !important}
+
+a:hover {font-weight: bolder !important}
+a:all { }
+a:-webkit-any-link {
+    cursor: auto;
+    text-decoration: none !important;
+}
+
+
