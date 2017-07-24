@@ -3588,11 +3588,11 @@ abbr {
   }
 
   .grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
-    left: -15px !important;
+    left: -10px !important;
   }
 
   .grid .jcarousel-skin-tango .jcarousel-next-horizontal {
-    right: -15px !important;
+    right: -10px !important;
   }
 
   .home-content-wrap .tab .ui-widget-header {
