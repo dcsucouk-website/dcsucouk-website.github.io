@@ -137,7 +137,7 @@ margin: 0px 10px 0px 10px
 .uc-student-voice-widget-category li a { font-size: 19px !important }
 #union-logo a { background: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120027/optimized/SU_General_Logo_-_LARGE_TRANSPARENT_WHITE_OUTLINE.png') no-repeat scroll center center transparent !important; background-size: 100% !important}
 
-#home-column-1.section { margin: 0px !important }
+#home-column-1.section {margin: 0px auto !important;}
 
 #uc-articles-details .eightcol { width:100% !important }
 
