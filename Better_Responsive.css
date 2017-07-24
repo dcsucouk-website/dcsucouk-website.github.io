@@ -27,6 +27,7 @@
 .threecol {width: 100% !important;clear: both !important;float: left !important; margin:0px !important}
 .uc-widget-student-voices-wrapper {    padding: 0px !important;}
 #footer .fourcol.column-content { clear: both !important; float: left !important; width: 100% !important; margin: auto !important}
+.uc-articles-module-wrapper .featured-image img { width:100% !important }
 }
 /* ////////////   ALL TIME */
 .page-content-html .content { max-width: 980px !important; width:100% !important; }
