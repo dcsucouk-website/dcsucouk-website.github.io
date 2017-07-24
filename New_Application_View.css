@@ -10039,6 +10039,7 @@ abbr {
   background: #e7e7e7;
   position: relative;
   height: 52px;
+  display: block;
 }
 
 .uc-widget-articles-container .uc-widget-article-footer a {
@@ -10048,7 +10049,7 @@ abbr {
 
 .uc-widget-article-pagination {
   position: absolute;
-  right: 92px;
+  right: 110px !important;
 }
 
 .uc-widget-article-more-link {

@@ -7568,4 +7568,7 @@ a:-webkit-any-link {
     text-decoration: none !important;
 }
 
+.uc-widget-article-more-link {padding: 0px 10px 0px 10px !important}
+.uc-widget-article-more-link .more-articles {}
+
 
