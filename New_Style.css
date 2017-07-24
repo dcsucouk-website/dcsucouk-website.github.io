@@ -7625,12 +7625,6 @@ a:-webkit-any-link {
 }
 
 
-
-#columned.grid-two-by-two  {
-    position: relative;
-    width: 50%;
-}
-
 #columned .thumbnail-image {
   opacity: 1;
   display: block;
@@ -7645,11 +7639,11 @@ a:-webkit-any-link {
   opacity: 0;
 }
 
-#columned .two-by-three:hover .thumbnail-image {
+#columned .two-by-three:hover .thumbnail-image, #columned .two-by-two:hover .thumbnail-image {
   opacity: 0.3;
 }
 
-#columned .two-by-three:hover .page-details {
+#columned .two-by-three:hover .page-details, #columned .two-by-two:hover .page-details {
   opacity: 1;
 }
 
