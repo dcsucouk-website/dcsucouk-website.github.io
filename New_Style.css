@@ -3588,11 +3588,11 @@ abbr {
   }
 
   .grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
-    left: -10px !important;
+    left: -15px !important;
   }
 
   .grid .jcarousel-skin-tango .jcarousel-next-horizontal {
-    right: -10px !important;
+    right: -15px !important;
   }
 
   .home-content-wrap .tab .ui-widget-header {
@@ -7564,7 +7564,7 @@ a:-webkit-any-link {
 
 .uc-widget-article-more-link {padding: 0px 10px 0px 10px !important}
 .uc-widget-article-more-link .more-articles {}
-
+..more-article-block { display: none !important }
 
 #meet-the-staff.grid-two-by-two  {
     position: relative;
