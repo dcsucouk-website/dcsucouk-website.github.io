@@ -3526,7 +3526,7 @@ abbr {
   }
 
   .bottom .column-content,.bottom-union .column-content,.bottom-subsite .column-content {
-    width: 30%;
+    width: 30.5% !important;
   }
 
   .section.powered-by {
