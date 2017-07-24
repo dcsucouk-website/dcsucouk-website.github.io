@@ -3873,6 +3873,7 @@ div#notice.info {
   line-height: 1em;
   margin: 0 5px 0 0;
   z-index: 1003;
+  /* display: none !important; */
 }
 
 .shopping-cart-menu {
@@ -3973,6 +3974,9 @@ div#notice.info {
   white-space: nowrap;
   width: 108px;
   line-height: 1.1em;
+  position: absolute !important;
+  top: 7px !important;
+  padding-left: 4px !important;
 }
 
 .profile-setting a.profile-name.expanded {
@@ -21400,3 +21404,4 @@ div.scrollableArea {
 }
 
 #social-content-wrap {padding: 10px }
+.shopping-cart-menu {display:none !important}
