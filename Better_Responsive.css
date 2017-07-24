@@ -46,7 +46,7 @@
 .ninecol {}
 .threecol {}
 .hidden-lg {display:none;}
-#union-logo {margin: 0px !important;}
+#union-logo { margin: 0px !important }
 }
 
 @media screen and (max-width: 767px){
@@ -82,7 +82,6 @@
     height: 20px !important;
 }
 
-
 .top-ad {
     /* position: absolute !important; */
     /* top: 100px !important; */
@@ -97,7 +96,6 @@
 .threecol {}
 .uc-widget-student-voices-wrapper {}
 .hidden-sm {display:none; }
-
 }
 
 @media screen and (min-width: 941px){
