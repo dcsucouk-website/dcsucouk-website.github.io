@@ -13070,15 +13070,15 @@ table.table-grid tr:nth-child(even) {
 
   .phone-menu {
     display: block;
-    height: 25px;
+    height: 21px !important;
     padding: 5px;
     background: #ccc !important;
     font-size: 1em;
     text-decoration: none;
-    color: #000 !important;
+    /* color: #000 !important; */
     text-transform: uppercase;
     font-weight: bold !important;
-    box-shadow: 0 3px 3px #999 !important;
+    /* box-shadow: 0 3px 3px #999 !important; */
     position: absolute;
     left: 0;
     right: 0;

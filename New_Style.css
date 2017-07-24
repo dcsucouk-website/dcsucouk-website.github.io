@@ -3818,7 +3818,7 @@ abbr {
   }
 
   .phone-menu {
-    background: transparent;
+    background: url(http://www.dcsu.co.uk/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white !important;
     color: white;
     font-family: 'Roboto', sans-serif !important;
     font-weight: normal;
