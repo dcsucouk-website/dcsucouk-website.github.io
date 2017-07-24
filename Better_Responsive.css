@@ -10,7 +10,7 @@
 @media screen and (min-width:768px) {
 .ninecol {}
 .threecol {}
-.uc-widget-articles-container { padding: 10px !important; }
+.uc-widget-articles-container {/* padding: 10px !important; */}
 #social-content-wrap { padding: 10px !important; }
 }
 
@@ -96,12 +96,12 @@
     z-index: -1;
 }
 .content .row .content-wrap.ninecol > div { background: none !important}
-.uc-widget-articles-container { background-color: white; padding: 10px }
+.uc-widget-articles-container {background-color: white;padding: 0px 10px;}
 .uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail>a img { width: 100% }
-.uc-widget-article-header {display: none; visibility: hidden}
+.uc-widget-article-header {/* display: none; *//* visibility: hidden; */height: 50px !important;background: #384352 !important;}
 .uc-widget-article-more-link a::before { content: ' '; }
 .uc-widget-article-more-link a::after { content: ' '; }
-.uc-widget-article-more-link a { background-color: #252c36; color: white !important}
+.uc-widget-article-more-link a {/* background-color: #252c36; */color: white !important;}
 
 .uc-widget-student-voices-wrapper {background-color: white; height: 100%; padding: 0px 10px 0px 10px}
 .threecol.left-nav-content {margin: 0px 0px 0px 10px } 

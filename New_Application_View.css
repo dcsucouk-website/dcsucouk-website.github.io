@@ -9916,10 +9916,11 @@ abbr {
 }
 
 .uc-widget-articles-container .uc-widget-article-header {
-  background: #e7e7e7;
+  /* background: transparent !important; */
   position: relative;
-  padding: 15px;
-  font-family: Arial,Helvetica,sans-serif;
+  padding: 0px !important;
+  font-family: 'Roboto', sans-serif !important;
+  color: white !important;
 }
 
 .uc-widget-articles-container .uc-widget-article-header h2,.content .row .content-wrap .uc-widget-articles-container .uc-widget-article-header h2 {
@@ -9936,12 +9937,12 @@ abbr {
 }
 
 .uc-widget-articles-container .uc-widget-article-header .uc-widget-article-more-link {
-  background: none repeat scroll 0 0 #252c36;
-  color: #fff;
+  /* color: #fff; */
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
+  background: #384352 !important;
 }
 
 .uc-widget-articles-container .uc-widget-article-header .uc-widget-article-more-link a {
@@ -10057,7 +10058,7 @@ abbr {
 }
 
 .uc-widget-article-more-link a {
-  display: table;
+  display: table-cell !important;
   padding: 10px;
   vertical-align: middle;
   font-size: 12px;
