@@ -7610,11 +7610,15 @@ a:-webkit-any-link {
 
 #columned .page-title {
   background-color: transparent !important;
+  font-size: 2.2em;
+  padding:10px
 }
 #columned .page-details { 
-  width: 75% !important;
-  bottom: 40px !important;
-  height: 40px !important;
+  width: 260px !important;
+  bottom: 20px !important;  
+  height: 85px !important;
   background-color: transparent !important;
-  background: url ('images/title_bg.png') 
+  background: url('images/title_bg.png');
+  background-size: 100% !important;
+  background-position: top right !important;
 }
