@@ -7604,7 +7604,7 @@ a:-webkit-any-link {
 #meet-the-staff .page-details .page-title {
   color: white;
   font-size: 16px;
-  padding: 16px 32px !important;
+  padding: 16px 16px !important;
   height: 50%;
   background-color: #384352;
 }
@@ -7621,8 +7621,6 @@ a:-webkit-any-link {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
-
 
 #columned .two-by-three:hover .thumbnail-image, #columned .two-by-two:hover .thumbnail-image {
   opacity: 0.3;
