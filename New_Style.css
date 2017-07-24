@@ -3588,11 +3588,11 @@ abbr {
   }
 
   .grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
-    left: -15px !important;
+    left: -10px !important;
   }
 
   .grid .jcarousel-skin-tango .jcarousel-next-horizontal {
-    right: -15px !important;
+    right: -10px !important;
   }
 
   .home-content-wrap .tab .ui-widget-header {
@@ -7564,7 +7564,7 @@ a:-webkit-any-link {
 
 .uc-widget-article-more-link {padding: 0px 10px 0px 10px !important}
 .uc-widget-article-more-link .more-articles {}
-..more-article-block { display: none !important }
+
 
 #meet-the-staff.grid-two-by-two  {
     position: relative;
@@ -7606,4 +7606,15 @@ a:-webkit-any-link {
   font-size: 16px;
   padding: 16px 32px !important;
   height: 50%;
+}
+
+#columned .page-title {
+  background-color: transparent !important;
+}
+#columned .page-details { 
+  width: 75% !important;
+  bottom: 40px !important;
+  height: 40px !important;
+  background-color: transparent !important;
+  background: url ('images/title_bg.png') 
 }
