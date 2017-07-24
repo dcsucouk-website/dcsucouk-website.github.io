@@ -747,13 +747,7 @@ span.success,p.success {
 }
 
 .grid-carousel a span.page-details {
-  font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
-  font-weight: normal;
-  bottom: 0;
-  left: 0;
-  padding: 0;
-  position: absolute;
-  right: 0;
+  font-family: 'Roboto', sans-serif !important;
   width: auto;
   background: none repeat scroll 0 0 #384352;
   bottom: 0;
@@ -3598,7 +3592,7 @@ abbr {
   }
 
   .grid .jcarousel-skin-tango .jcarousel-next-horizontal {
-    right: 0px;
+    right: 0px !important;
   }
 
   .home-content-wrap .tab .ui-widget-header {
@@ -7572,46 +7566,44 @@ a:-webkit-any-link {
 .uc-widget-article-more-link .more-articles {}
 
 
-@media screen and (min-width: 1024px){
-  #meet-the-staff.grid-two-by-two  {
+#meet-the-staff.grid-two-by-two  {
     position: relative;
     width: 50%;
-  }
+}
 
 
-  #meet-the-staff .thumbnail-image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
+#meet-the-staff .thumbnail-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 
-  #meet-the-staff .page-details {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    height: 50%;
-    background-color: rgb(51,51,51);
-  }
+#meet-the-staff .page-details {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  height: 50%;
+  background-color: rgb(51,51,51);
+}
 
-  #meet-the-staff.grid-two-by-two:hover .thumbnail-image {
-    opacity: 0.3;
-  }
+#meet-the-staff.grid-two-by-two:hover .thumbnail-image {
+  opacity: 0.3;
+}
 
-  #meet-the-staff.grid-two-by-two:hover .page-details {
-    opacity: 1;
-  }
+#meet-the-staff.grid-two-by-two:hover .page-details {
+  opacity: 1;
+}
 
-  #meet-the-staff .page-details .page-title {
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px !important;
-    height: 50%;
-  }
+#meet-the-staff .page-details .page-title {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px !important;
+  height: 50%;
 }
