@@ -128,9 +128,7 @@ background-attachment: fixed !important;
     background: #fff;
     margin: 10px 0px 10px 0px;
 }
-#columned-wrap {
-margin: 0px 10px 0px 10px 
-}
+#columned-wrap, #meet-the-staff-wrap {margin: 0px 10px 0px 10px;}
 .tab .ui-widget-header { background: #FFF !important}
 .tab .ui-tabs .ui-tabs-panel { background: none !important}
 .row.content {background: #FFF;}
