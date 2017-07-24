@@ -3084,7 +3084,8 @@ img {
     margin-right: 0;
     padding-left: 00px;
     padding-right: 00px;
-    clear: both;
+    /* clear: none !important; */
+    /* float: left !important; */
   }
 
   img,object,embed {

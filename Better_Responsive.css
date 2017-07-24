@@ -19,12 +19,14 @@
 .threecol {width: 100% !important;margin: 0px !important;clear: both !important;float: left !important; }
 .uc-widget-student-voices-wrapper {padding:0px !important}
 .content-wrap.home-content-wrap.subsites.ninecol.last {padding-left:0px;}
+#footer .fourcol.column-content { clear: none !important; float: left !important; width: 50% !important; margin: auto !important}
 }
 
 @media screen and (max-width: 480px){
 .ninecol {}
 .threecol {width: 100% !important;clear: both !important;float: left !important; margin:0px !important}
 .uc-widget-student-voices-wrapper {    padding: 0px !important;}
+#footer .fourcol.column-content { clear: both !important; float: left !important; width: 100% !important; margin: auto !important}
 }
 /* ////////////   ALL TIME */
 .page-content-html .content { max-width: 980px !important; width:100% !important; }

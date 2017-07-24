@@ -4123,6 +4123,7 @@ abbr {
     background: none !important;
     min-height: 170px;
     padding: 0 0px 20px 0px;
+    margin-right: 0px !important;
   }
 
   .content-wrap.page-content-wrap .fourcol {
