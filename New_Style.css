@@ -7590,7 +7590,7 @@ a:-webkit-any-link {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   height: 50%;
-  background-color: rgb(51,51,51);
+  background-color: #384352;
 }
 
 #meet-the-staff.grid-two-by-two:hover .thumbnail-image {
@@ -7606,6 +7606,7 @@ a:-webkit-any-link {
   font-size: 16px;
   padding: 16px 32px !important;
   height: 50%;
+  background-color: #384352;
 }
 
 #columned .page-title {
@@ -7621,4 +7622,37 @@ a:-webkit-any-link {
   background: url('images/title_bg.png');
   background-size: 100% !important;
   background-position: top right !important;
+}
+
+
+
+#columned.grid-two-by-two  {
+    position: relative;
+    width: 50%;
+}
+
+#columned .thumbnail-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#columned .page-details {
+  transition: .5s ease;
+  opacity: 0;
+}
+
+#columned .two-by-three:hover .thumbnail-image {
+  opacity: 0.3;
+}
+
+#columned .two-by-three:hover .page-details {
+  opacity: 1;
+}
+
+#columned .page-details .page-title {
+  color: white;  
 }
