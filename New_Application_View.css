@@ -21408,4 +21408,5 @@ div.scrollableArea {
 .sub-site-home-html #main-menu {
   margin-left:-10px !important;
 }
-.section.column.latest-opportunities-box {padding-top:10px !important; padding-bottom:10px !important}
+
+#latest-opportunities .uc-widget-articles-container {padding-top:10px; padding-bottom:10px}
