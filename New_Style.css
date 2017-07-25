@@ -208,7 +208,8 @@ em strong,strong em {
   padding: 12px 15px;
 }
 
-.menu ul li span {
+.menu ul li span, .menu
+ ul li div a {
   padding: 12px 30px 12px 15px;
   background: url("/themes/dcsu_default/images/navigation-arrow.png") no-repeat scroll right center transparent;
   color: white;
