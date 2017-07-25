@@ -21405,3 +21405,6 @@ div.scrollableArea {
 
 #social-content-wrap {padding: 10px }
 .shopping-cart-menu {display:none !important}
+.sub-site-home-html #main-menu {
+  margin-left:-10px !important;
+}
