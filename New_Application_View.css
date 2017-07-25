@@ -21410,3 +21410,7 @@ div.scrollableArea {
 }
 
 #latest-opportunities .uc-widget-articles-container {padding-top:10px; padding-bottom:10px}
+
+#opportunities-grid-navigation .grid-carousel {height:100% !important;}
+#opportunities-grid-navigation .jcarousel-skin-tango {margin-top: 20px !important; margin-bottom: 20px !important}
+#opportunities-grid-navigation .jcarousel-skin-tango li.two-by-two.jcarousel-item { margin-right: 26px !important}

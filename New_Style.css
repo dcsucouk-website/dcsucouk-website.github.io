@@ -672,7 +672,7 @@ span.success,p.success {
   position: static;
   margin: 0px auto !important;
   width: 96%;
-  height: 325px !important;
+  /* height: 325px !important; */
 }
 
 .grid-carousel a {
