@@ -3379,6 +3379,7 @@ abbr {
 @media only screen and (max-width:980px) {
   html {
     background: #f4f4f4;
+    overflow-x: hidden;
   }
 
   .wrapper {
@@ -3589,11 +3590,11 @@ abbr {
   }
 
   .grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
-    left: -10px !important;
+    left: 10px !important;
   }
 
   .grid .jcarousel-skin-tango .jcarousel-next-horizontal {
-    right: -10px !important;
+    right: 10px !important;
   }
 
   .home-content-wrap .tab .ui-widget-header {
@@ -4017,7 +4018,7 @@ abbr {
     border-width: 0 0 2px 0;
     color: #202020;
     font-weight: bold;
-    width: 96%;
+    /* width: 100% !important; */
     margin-bottom: 5px;
     margin-top: 0;
     background: none;
@@ -7615,7 +7616,7 @@ a:-webkit-any-link {
 
 
 
-#columned .thumbnail-image {
+#homepage-carousel .thumbnail-image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -7626,16 +7627,16 @@ a:-webkit-any-link {
 
 
 
-#columned .two-by-three:hover .thumbnail-image, #columned .two-by-two:hover .thumbnail-image {
+#homepage-carousel .two-by-three:hover .thumbnail-image, #homepage-carousel .two-by-two:hover .thumbnail-image {
   opacity: 0.3;
 }
 
-#columned .two-by-three:hover .page-details, #columned .two-by-two:hover .page-details {
+#homepage-carousel .two-by-three:hover .page-details, #homepage-carousel .two-by-two:hover .page-details {
   opacity: 1;
   bottom: 20px;
 }
 
-#columned .page-details {  
+#homepage-carousel .page-details {  
   width: 260px !important; 
   height: 82px !important;
   background-color: transparent !important;
@@ -7644,14 +7645,14 @@ a:-webkit-any-link {
   background-position: top right !important;
 }
 
-#columned .page-details {
+#homepage-carousel .page-details {
   transition: .5s ease;
   opacity: 1;
   bottom: -85px;
 
 }
 
-#columned .page-title {
+#homepage-carousel .page-title {
   color: white;  
   top: 0px !important;
   font-weight: normal !important;
@@ -7660,7 +7661,7 @@ a:-webkit-any-link {
   padding:10px 10px 5px 10px !important;
 }
 
-#columned .page-details .custom-title {
+#homepage-carousel .page-details .custom-title {
   padding:0px 10px 0px 10px !important;
 
 }

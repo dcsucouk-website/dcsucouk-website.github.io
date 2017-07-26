@@ -3,7 +3,7 @@
 .threecol {}
 }
 
-@media screen and (max-width: 981px){
+@media screen and (max-width: 980px){
     #union-logo { margin-left: 10px !important;}
 }
 
@@ -54,7 +54,9 @@
 }
 
 @media screen and (max-width: 767px){
-
+#homepage-tabs, #meet-the-staff { margin: -10px -10px -10px -10px !important }
+#homepage-tabs li.ui-state-default { width:100% }
+#homepage-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
@@ -177,7 +179,7 @@ background-attachment: fixed !important;
     background: #fff;
     margin: 10px 0px 10px 0px;
 }
-#columned-wrap, #meet-the-staff-wrap {margin: 0px 10px 0px 10px;}
+#columned-wrap {margin: 0px 10px 0px 10px;}
 .tab .ui-widget-header {/* background: #FFF !important */}
 .tab .ui-tabs .ui-tabs-panel { background: none !important}
 .row.content {background: #FFF;}
