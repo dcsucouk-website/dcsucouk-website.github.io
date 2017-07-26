@@ -21417,8 +21417,17 @@ div.scrollableArea {
 
 #latest-opportunities {margin-top: 10px !important; background: #fff}
 #latest-opportunities #opportunities-tabs {margin-bottom: 0px !important; padding: 10px !important}
-#latest-opportunities .tab-content-wrapper-box {height:100% !Important}
-#latest-opportunities .tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {padding: 0px !important}
-#latest-opportunities .uc-widget-articles-container {margin: 0px !important; padding:0px !important}
+#latest-opportunities #opportunities-tabs .tab-content-wrapper-box {height:100% !Important}
+#latest-opportunities #opportunities-tabs .tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {padding: 0px !important}
+#latest-opportunities #opportunities-tabs .uc-widget-articles-container {margin: 0px !important; padding:0px !important}
 
 #hidden-section {display: none}
+
+#homepage-tabs {margin-top: 10px !important; background: #fff;margin-bottom: 20px !important; padding: 10px !important}
+#homepage-tabs .tab-content-wrapper-box {height:100% !Important}
+#homepage-tabs .tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {padding: 0px !important}
+
+#homepage-tabs.tab .ui-tabs .ui-tabs-nav li { padding: 10px !important }
+#homepage-carousel .grid-carousel {height:100% !important;}
+#homepage-carousel .jcarousel-skin-tango {margin-top: 20px !important; margin-bottom: 20px !important}
+#homepage-carousel #homepage-carousel-wrap { margin-left: -10px !important; margin-right: -10px !important; margin-bottom:-10px !important}

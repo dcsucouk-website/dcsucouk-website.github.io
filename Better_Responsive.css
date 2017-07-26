@@ -169,7 +169,7 @@ background-attachment: fixed !important;
     position: relative;
     margin: 0 auto;
 }
-.section.grid {margin-top: 10px !important;margin-bottom: 10px;background: white;}
+.section.grid {/* margin-top: 10px !important; */margin-bottom: 10px;background: white;}
 .section.grid h2 { margin-left: 5px; margin-top: 5px}
 
 #columned {
@@ -178,7 +178,7 @@ background-attachment: fixed !important;
     margin: 10px 0px 10px 0px;
 }
 #columned-wrap, #meet-the-staff-wrap {margin: 0px 10px 0px 10px;}
-.tab .ui-widget-header { background: #FFF !important}
+.tab .ui-widget-header {/* background: #FFF !important */}
 .tab .ui-tabs .ui-tabs-panel { background: none !important}
 .row.content {background: #FFF;}
 
