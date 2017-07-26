@@ -7616,7 +7616,7 @@ a:-webkit-any-link {
 
 
 
-#homepage-carousel .thumbnail-image {
+#homepage-tabs .grid-carousel .thumbnail-image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -7627,16 +7627,16 @@ a:-webkit-any-link {
 
 
 
-#homepage-carousel .two-by-three:hover .thumbnail-image, #homepage-carousel .two-by-two:hover .thumbnail-image {
+#homepage-tabs .grid-carousel .two-by-three:hover .thumbnail-image, #homepage-tabs .grid-carousel .two-by-two:hover .thumbnail-image {
   opacity: 0.3;
 }
 
-#homepage-carousel .two-by-three:hover .page-details, #homepage-carousel .two-by-two:hover .page-details {
+#homepage-tabs .grid-carousel .two-by-three:hover .page-details, #homepage-tabs .grid-carousel .two-by-two:hover .page-details {
   opacity: 1;
   bottom: 20px;
 }
 
-#homepage-carousel .page-details {  
+#homepage-tabs .grid-carousel .page-details {  
   width: 260px !important; 
   height: 82px !important;
   background-color: transparent !important;
@@ -7645,14 +7645,14 @@ a:-webkit-any-link {
   background-position: top right !important;
 }
 
-#homepage-carousel .page-details {
+#homepage-tabs .grid-carousel .page-details {
   transition: .5s ease;
   opacity: 1;
   bottom: -85px;
 
 }
 
-#homepage-carousel .page-title {
+#homepage-tabs .grid-carousel .page-title {
   color: white;  
   top: 0px !important;
   font-weight: normal !important;
@@ -7661,7 +7661,7 @@ a:-webkit-any-link {
   padding:10px 10px 5px 10px !important;
 }
 
-#homepage-carousel .page-details .custom-title {
+#homepage-tabs .grid-carousel .page-details .custom-title {
   padding:0px 10px 0px 10px !important;
 
 }
