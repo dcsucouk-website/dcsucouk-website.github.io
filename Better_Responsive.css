@@ -56,7 +56,7 @@
 @media screen and (max-width: 767px){
 #homepage-tabs, #meet-the-staff { margin: -10px -10px -10px -10px !important }
 #homepage-tabs li.ui-state-default { width:100% }
-#homepage-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
+#homepage-tabs .grid-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
