@@ -164,13 +164,13 @@
 .threecol.left-nav-content {margin: 0px 0px 0px 10px } 
 .bottom, .bottom-union { background: #FFF !important }
 .wrapper {background: transparent !important }
-body
+html
     {
         //background-color: black !important;
         background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;
-        background-size: auto 100% !important;
+        background-size: 150%  auto!important;
         background-repeat: no-repeat !important;
-        background-position: left top !important;
+        background-position: center !important;
 background-attachment: fixed !important;
     }
 .nav-wrap {
