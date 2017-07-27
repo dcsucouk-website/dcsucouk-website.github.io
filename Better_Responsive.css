@@ -161,9 +161,9 @@ body
     {
         //background-color: black !important;
         background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;
-        background-size: auto 200% !important;
+        background-size: auto 100% !important;
         background-repeat: no-repeat !important;
-        background-position: center center !important;
+        background-position: left top !important;
 background-attachment: fixed !important;
     }
 .nav-wrap {
@@ -197,3 +197,5 @@ background-attachment: fixed !important;
 #uc-articles-details { margin: 10px 5px !important }
 
 .article-details-wrapper .time { display: none !important }
+
+#twitter-feed-column-content .uc-page-wrap, #facebook-feed-column-content .uc-page-wrap {width:100% !important; padding-left:10px !important}
