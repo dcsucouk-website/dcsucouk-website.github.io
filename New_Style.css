@@ -4908,7 +4908,7 @@ abbr {
   }
 
   .column {
-    width: 93%;
+    width: initial !important;
   }
 
   .page-search {
@@ -7693,9 +7693,15 @@ a:-webkit-any-link {
     /* width: 60px; */
   }
 
-#news-banner-column, #new-column, #social-banner-column {
+#news-banner-column, #social-banner-column {
   max-width:100% !important;
   padding: 10px 10px 0px 10px;
+}
+
+#new-column {
+  max-width:100% !important;
+  padding: 0px 10px 0px 10px;
+  
 }
 #home-column-1.section.column {
   padding: 0px 10px 0px 10px !important;

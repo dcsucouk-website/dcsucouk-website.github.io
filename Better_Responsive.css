@@ -73,7 +73,8 @@
 }
 
 .ninecol {}
-.threecol { }
+.row.content .threecol.last {width: 100% !important;}
+#homepage-right-panel { padding: 10px !important; margin: 0px !important}
 .uc-widget-articles-container { padding: 10px 0px 10px 0px !important; }
 #social-content-wrap { padding:0px !important; }
 .hidden-md {display:none;}
@@ -113,6 +114,9 @@
 }
 
 @media screen and (max-width: 480px){
+    
+.row.content .threecol.last {width: 100% !important;}
+#homepage-right-panel {max-width: 100% !important;padding: 10px !important;margin: 0px !important;}
 .ninecol {}
 .threecol {}
 .uc-widget-student-voices-wrapper {}
@@ -166,12 +170,13 @@
 .wrapper {background: transparent !important }
 html
     {
-        //background-color: black !important;
+        //
+        background-color: black !important;
         background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;
-        background-size: 150%  auto!important;
+        background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
-background-attachment: fixed !important;
+        background-attachment: fixed !important;
     }
 .nav-wrap {
     background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white;
