@@ -4,9 +4,11 @@
 
 #your-big-ideas .uc-widget-student-voices-wrapper { padding: 0px !important; margin: 0px !important}
 
-#homepage-right-panel, #your-voice-banner {
-  padding: 10px 10px 10px 0px;
+#homepage-right-panel {
+  padding: 0px 10px 10px 0px;
 }
+
+#your-voice-banner {padding: 10px 10px 0px 0px;}
 
 .ui-helper-hidden-accessible {
   position: absolute!important;
