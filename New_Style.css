@@ -7693,3 +7693,24 @@ a:-webkit-any-link {
     /* width: 60px; */
   }
 
+#news-banner-column {
+  max-width:100% !important;
+
+  padding: 10px 10px 0px 10px
+}
+#news-banner-column-content {
+  width: 100% !important;
+}
+
+#news-banner-column-content span.thumbnail-image{
+  max-width: 100% !important;
+ width:100% !important;
+}
+
+#news-banner-column-content span.thumbnail-image img {
+  width: 100% !important;
+ 
+}
+
+#home-column-1 .uc-widget-article-header { display: none }
+#home-column-1 .uc-widget-articles-container { margin-top: 0px !important }
