@@ -21,6 +21,8 @@
 @media screen and (min-width:768px) {
 .ninecol {}
 .threecol {}
+.threecol-img-banner {display: visible}
+.full-img-banner { display: none}
 .uc-widget-articles-container {/* padding: 10px !important; */}
 #social-content-wrap { padding: 10px !important; }
 }
@@ -67,14 +69,16 @@
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
-
+.threecol-img-banner {display: none}
+.full-img-banner { display: visible}
 #main-menu .nav-wrap ul li ul{
   margin-top:0px !important;
 }
 
 .ninecol {}
 .row.content .threecol.last {width: 100% !important;}
-#homepage-right-panel { padding: 10px !important; margin: 0px !important}
+#your-voice-banner { padding: 10px 10px 0px 10px !important; margin: 0px !important}
+#homepage-right-panel { padding: 0px 10px 10px 10px !important; margin: 0px !important}
 .uc-widget-articles-container { padding: 10px 0px 10px 0px !important; }
 #social-content-wrap { padding:0px !important; }
 .hidden-md {display:none;}
@@ -116,7 +120,7 @@
 @media screen and (max-width: 480px){
     
 .row.content .threecol.last {width: 100% !important;}
-#homepage-right-panel {max-width: 100% !important;padding: 10px !important;margin: 0px !important;}
+#homepage-right-panel {/* max-width: 100% !important; *//* padding: 10px !important; *//* margin: 0px !important; */}
 .ninecol {}
 .threecol {}
 .uc-widget-student-voices-wrapper {}
