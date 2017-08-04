@@ -7693,7 +7693,7 @@ a:-webkit-any-link {
     /* width: 60px; */
   }
 
-#news-banner-column {
+#news-banner-column, #home-column-1, #new-column {
   max-width:100% !important;
 
   padding: 10px 10px 0px 10px;
