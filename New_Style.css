@@ -1515,7 +1515,7 @@ span.success,p.success {
 
 
 .content .row .content-wrap .section,.content .row .content-wrap h1,.content .row .content-wrap h2,.content .row .content-wrap p {
-  margin: 5px 0;
+  margin: 0px !important;
 }
 
 .content .row .content-wrap p {
