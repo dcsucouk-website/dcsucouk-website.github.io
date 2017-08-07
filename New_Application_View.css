@@ -4543,7 +4543,7 @@ h1 {
 }
 
 .threecol.tree-navigation {
-  margin: 3px;
+  margin: 0px !important;
 }
 
 .tree-navigation h3 {
