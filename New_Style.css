@@ -7,10 +7,13 @@
 #your-big-ideas .uc-student-voice-widget-wrapper .jcarousel-item { padding:0px !important; margin-bottom: 10px !important}
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-image {display: none !important}
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-description { padding: 10px !important}
-#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper { width: 60px }
+#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper { width: 30px }
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div { width: 30px !important; height: 27px !important;background-size: auto 28px !important}
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div span { padding-top: 17px !important}
 
+#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-dislike {display:none}
+#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div {background-image: url('images/star.png'); background-color: transparent; }
+#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div span {color: white}
 /*@font-face {
   font-family: 'CenturyGothic';
   src: url("fonts/CenturyGothic.eot");
