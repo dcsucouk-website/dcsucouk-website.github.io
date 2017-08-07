@@ -2,8 +2,10 @@
 #uc-sv-left-panel { width: 100% !important}
 .uc-sv-details-container { padding-top: 36px !important}
 .uc-sv-module-details-advertisement-wrapper { height: initial !important}
+.uc-sv-category-wrapper {display: none }
+.uc-sv-module-idea-wrapper { background-color: white !important}
 
-
+.uc-sv-module-text-wrapper .author span:before {content: ' '}
 
 /*@font-face {
   font-family: 'CenturyGothic';
