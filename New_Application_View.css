@@ -2,6 +2,7 @@
   display: none;
 }
 
+#footer.section.column.union-footer { padding: 0 10px 0 10px !important}
 #your-big-ideas .uc-widget-student-voices-wrapper { padding: 0px !important; margin: 0px !important}
 
 #homepage-right-panel {
