@@ -7306,7 +7306,7 @@ abbr {
 }
 
 .uc-adv-admin .top .uc-list-icons,.uc-adv-admin .top-union .uc-list-icons,.uc-adv-admin .top-union-subsite .uc-list-icons,.uc-adv-admin .top .tab-half-circle,.uc-adv-admin .top-union .tab-half-circle,.uc-adv-admin .top-union-subsite .tab-half-circle {
-  display: none;
+  display: initial !important;
 }
 
 .tool-bar-shadow .uc-icon-make-draft,.uc-inside-border .uc-icon-make-draft,.nav-wrap .menu ul li div.tool-bar a.uc-icon-make-draft,.uc-icon-make-draft,.section.stripe .stripe-wrap a.uc-icon-make-draft {
