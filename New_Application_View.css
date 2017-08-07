@@ -3264,7 +3264,7 @@ img {
 }
 
 .tree-navigation-structure {
-  margin: 0 0 15px;
+  margin: 0 0 15px 10px !important;
 }
 
 #uc-left-navigation ol li a {
