@@ -1,3 +1,10 @@
+#uc-sv-content-container .uc-sv-legends {display: none !important}
+#uc-sv-left-panel { width: 100% !important}
+.uc-sv-details-container { padding-top: 36px !important}
+.uc-sv-module-details-advertisement-wrapper { height: initial !important}
+
+
+
 /*@font-face {
   font-family: 'CenturyGothic';
   src: url("fonts/CenturyGothic.eot");
