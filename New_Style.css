@@ -14,6 +14,7 @@
   padding: 0 10px 0 10px !important;
 }
 
+.myaccount-subscription-details .portlet {padding: 10px 10px 10px 20px !important;/* overflow: hidden; */}
 
 html {
   background: #f4f4f4;
@@ -2637,8 +2638,8 @@ fieldset.group-questions-form {
 
 .myaccount-loyalty-points .portlet,.myaccount-student-details .portlet,.myaccount-change-password .portlet,.myaccount-subscription-details .portlet {
   background: url("/themes/dcsu_default/images/content-left-bg.png") no-repeat scroll left top transparent;
-  padding: 0 0 0 4%;
-  width: 96%;
+  /* padding: 0 0 0 4%; */
+  /* width: 100%; */
 }
 
 .myaccount-ticket-details .portletTitles h2 {
