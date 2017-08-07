@@ -9,6 +9,11 @@
 @font-face {
   font-family:'CenturyGothicBold';src:url("fonts/CenturyGothicBold.eot");src:url("fonts/CenturyGothicBold.eot?#iefix") format("embedded-opentype"),url("fonts/CenturyGothicBold.woff") format("woff"),url("fonts/CenturyGothicBold.ttf") format("truetype"),url("fonts/CenturyGothicBold.svg#CenturyGothicBold") format("svg");font-weight:normal;font-style:normal;
 }*/
+.content .row .content-wrap.ninecol > div {
+  background: url(/themes/dcsu_default/images/content-left-bg.png) no-repeat left top;
+  padding: 0 10px 0 10px !important;
+}
+
 
 html {
   background: #f4f4f4;
@@ -1506,10 +1511,7 @@ span.success,p.success {
   margin: 15px 0 !important;
 }
 
-.content .row .content-wrap.ninecol > div {
-  background: url(/themes/dcsu_default/images/content-left-bg.png) no-repeat left top;
-  padding: 0 0 0 24px;
-}
+
 
 .content .row .content-wrap .section,.content .row .content-wrap h1,.content .row .content-wrap h2,.content .row .content-wrap p {
   margin: 5px 0;
@@ -4388,7 +4390,7 @@ abbr {
 
   .content-wrap.ninecol > div {
     background: none;
-    padding: 0;
+    padding-left: 1px !important;
     /* margin-left: 5px !important; */
   }
 

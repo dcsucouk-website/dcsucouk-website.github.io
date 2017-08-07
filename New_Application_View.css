@@ -2,6 +2,9 @@
   display: none;
 }
 
+.personal-blog-box { width: 100% !important; margin-right: 0px !important}
+.personal-blog-box .twelvecol.last.column-content {width: 100% !important}
+
 #footer.section.column.union-footer { padding: 0 10px 0 10px !important}
 #your-big-ideas .uc-widget-student-voices-wrapper { padding: 0px !important; margin: 0px !important}
 

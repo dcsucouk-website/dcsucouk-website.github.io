@@ -24,6 +24,10 @@
 @media screen and (min-width:768px) {
 .ninecol {}
 .threecol {}
+.content .row .content-wrap.ninecol > div {
+  background: url(/themes/dcsu_default/images/content-left-bg.png) no-repeat left top;
+  padding: 0 10px 0 10px !important;
+}
 .threecol-img-banner {display: visible}
 .full-img-banner { display: none}
 .uc-widget-articles-container {/* padding: 10px !important; */}
@@ -72,6 +76,7 @@
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
+.content-wrap.ninecol > div { padding: 0px !important }
 .threecol.left-nav-content { width:100% !important}
 .threecol.left-nav-content .tree-navigation-structure {margin-left:0px !important}
 .threecol-img-banner {display: none}
