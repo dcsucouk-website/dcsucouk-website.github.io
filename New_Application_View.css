@@ -10668,7 +10668,7 @@ abbr {
 .jcarousel-container-vertical {
   width: 100%;
   height: 300px;
-  background: #e8e8e8;
+  background: none !important;
   border: 1px solid #fff;
 }
 
