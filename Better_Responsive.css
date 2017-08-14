@@ -87,8 +87,8 @@
 
 .ninecol {}
 .row.content .threecol.last {width: 100% !important;}
-#your-voice-banner { padding: 10px 10px 0px 10px !important; margin: 0px !important}
-#homepage-right-panel { padding: 0px 10px 10px 10px !important; margin: 0px !important}
+#your-voice-banner, #eventspanelhead { padding: 10px 10px 0px 10px !important; margin: 0px !important}
+#homepage-right-panel, #events-column { padding: 0px 10px 10px 10px !important; margin: 0px !important}
 .uc-widget-articles-container { padding: 10px 0px 10px 0px !important; }
 #social-content-wrap { padding:0px !important; }
 .hidden-md {display:none;}

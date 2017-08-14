@@ -9,7 +9,7 @@
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-description { padding: 10px !important}
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper { width: 30px }
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div { width: 30px !important; height: 27px !important;background-size: auto 28px !important}
-#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div span { padding-top: 17px !important}
+#your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div span {padding-top: 10px !important;}
 
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-dislike {display:none}
 #your-big-ideas .uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper div {background-image: url('images/star.png'); background-color: transparent; }

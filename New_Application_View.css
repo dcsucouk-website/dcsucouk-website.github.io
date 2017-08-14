@@ -8,11 +8,11 @@
 #footer.section.column.union-footer { padding: 0 10px 0 10px !important}
 #your-big-ideas .uc-widget-student-voices-wrapper { padding: 0px !important; margin: 0px !important}
 
-#homepage-right-panel {
+#homepage-right-panel, #events-column {
   padding: 0px 10px 10px 0px;
 }
 
-#your-voice-banner {padding: 10px 10px 0px 0px;}
+#your-voice-banner, #eventspanelhead {padding: 10px 10px 0px 0px;}
 
 .ui-helper-hidden-accessible {
   position: absolute!important;
