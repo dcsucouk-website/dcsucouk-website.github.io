@@ -7719,7 +7719,7 @@ a:-webkit-any-link {
 
 #new-column {
   max-width:100% !important;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 0px 0px;
   /* width: 100% !important; */
 }
 #home-column-1.section.column {
