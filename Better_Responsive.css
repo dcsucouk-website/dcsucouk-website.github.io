@@ -32,6 +32,8 @@
 .full-img-banner { display: none}
 .uc-widget-articles-container {/* padding: 10px !important; */}
 #social-content-wrap { padding: 10px !important; }
+#twitter-feed-column-content { padding-left: 10px}
+
 }
 
 @media screen and (min-width:481px) and (max-width: 767px){
@@ -73,6 +75,7 @@
 #homepage-tabs, #meet-the-staff { margin: -10px -10px -10px -10px !important }
 #homepage-tabs li.ui-state-default { width:100% }
 #homepage-tabs .grid-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
+#new-column { padding:10px 10px 0px 10px !important}
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
@@ -223,6 +226,6 @@ html
 
 .article-details-wrapper .time { display: none !important }
 
-#twitter-feed-column-content .uc-page-wrap, #facebook-feed-column-content .uc-page-wrap {width:100% !important; padding-left:10px !important}
+#twitter-feed-column-content .uc-page-wrap, #facebook-feed-column-content .uc-page-wrap {width:100% !important;/* padding-left:10px !important */}
 
 .section.column.personal-blog-box .uc-widget-articles-container { padding: 0px }

@@ -7720,6 +7720,7 @@ a:-webkit-any-link {
 #new-column {
   max-width:100% !important;
   padding: 10px 10px 0px 10px;
+  /* width: 100% !important; */
 }
 #home-column-1.section.column {
   padding: 0px 10px 0px 10px !important;
