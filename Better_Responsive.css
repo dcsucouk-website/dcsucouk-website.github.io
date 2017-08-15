@@ -1,6 +1,6 @@
 #new-column-wrap { width:100% !important}
 #eventspanel-column-content, #twitter-feed-column-content {width: 50%;}
-#twitter-feed-column-content .uc-page-wrap, #twitter-feed-column-content .edit-mode-page { margin-left: 10px }
+#eventspanel-column-content .edit-mode-page, #twitter-feed-column-content .edit-mode-page { margin-left: 10px }
 
 .threecol {width: 25% !important;}
 
@@ -35,7 +35,7 @@
 .full-img-banner { display: none}
 .uc-widget-articles-container {/* padding: 10px !important; */}
 #social-content-wrap { padding: 10px !important; }
-#twitter-feed-column-content {/* margin-left: 10px; */}
+#twitter-feed-column-content, #eventspanel-column-content {/* margin-left: 10px; */}
 
 }
 
@@ -80,7 +80,7 @@
 #homepage-tabs .grid-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
 #new-column { padding:10px 10px 0px 10px !important}
 #eventspanel-column-content, #twitter-feed-column-content { width: 100% }
-#twitter-feed-column-content .uc-page-wrap, #twitter-feed-column-content .edit-mode-page { margin : 0px }
+#twitter-feed-column-content .uc-page-wrap, #twitter-feed-column-content .edit-mode-page, #eventspanel-column-content .edit-mode-page, #eventspanel-column-content .uc-mode-page { margin : 0px }
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
