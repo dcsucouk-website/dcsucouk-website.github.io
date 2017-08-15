@@ -1,6 +1,6 @@
 #new-column-wrap { width:100% !important}
 #eventspanel-column-content, #twitter-feed-column-content {width: 50%;}
-#twitter-feed-column-content .uc-page-wrap { margin-left: 10px }
+#twitter-feed-column-content .uc-page-wrap, #twitter-feed-column-content .edit-mode-page { margin-left: 10px }
 
 .threecol {width: 25% !important;}
 
@@ -80,7 +80,7 @@
 #homepage-tabs .grid-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
 #new-column { padding:10px 10px 0px 10px !important}
 #eventspanel-column-content, #twitter-feed-column-content { width: 100% }
-#twitter-feed-column-content .uc-page-wrap { margin : 0px }
+#twitter-feed-column-content .uc-page-wrap, #twitter-feed-column-content .edit-mode-page { margin : 0px }
 #main-menu .nav-wrap ul {
   margin-top:56px !important;
 }
