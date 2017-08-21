@@ -536,6 +536,7 @@ span.success,p.success {
   font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
   font-weight: normal;
   padding: 0;
+  width: 100;
 }
 
 .tab .ui-tabs .ui-tabs-nav li {

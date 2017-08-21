@@ -68,8 +68,8 @@
 @media screen and (max-width: 767px){
 #eventspanel-column-content p iframe {max-height: 400px}
 #twitter-feed-column-content p iframe {max-height: 400px}
-#homepage-tabs, #meet-the-staff { margin: -10px -10px -10px -10px !important }
-#homepage-tabs li.ui-state-default { width:100% }
+#homepage-tabs, #meet-the-staff {/* margin: -10px -10px -10px -10px !important */padding: 0px !important;}
+#homepage-tabs li.ui-state-default {width: 100%;}
 #homepage-tabs .grid-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
 #new-column { padding:10px 10px 0px 10px !important}
 #eventspanel-column-content, #twitter-feed-column-content { width: 100% }
