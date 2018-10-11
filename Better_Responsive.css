@@ -1,6 +1,7 @@
 #new-column-wrap { width:100% !important}
-#eventspanel-column-content, #twitter-feed-column-content {width: 50%;}
-div#twitter-feed-column-content, div#latest-events-widget-column-content { clear:both }
+//#eventspanel-column-content, #twitter-feed-column-content {width: 50%;}
+div#latest-events-widget-column-content, div#twitter-feed-column-content-column-content { clear:both }
+div#eventspanel-column-content { width: 100%; margin-left:10px; }
 
 #eventspanel-column-content .edit-mode-page, #twitter-feed-column-content .edit-mode-page { margin-left: 10px }
 
