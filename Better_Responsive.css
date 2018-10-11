@@ -3,6 +3,7 @@
 @media screen and (max-width: 767px){
     .homepage-full-column .column-content.homepage-half-column { width: 100% !important; }
     .column.homepage-half-column { width: 100% !important }
+    #hide-when-small { display: none }
 }
 
 @media screen and (min-width:768px) {
