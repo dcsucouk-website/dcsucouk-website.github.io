@@ -1,9 +1,11 @@
 #new-column-wrap { width:100% !important}
-//#eventspanel-column-content, #twitter-feed-column-content {width: 50%;}
-div#latest-events-widget-column-content, div#twitter-feed-column-content-column-content { clear:both }
-div#eventspanel-column-content { width: 100%; margin-left:10px; }
+div.column-content.homepage-half-column { width: 50%; }
+.sixcol { width: inherit }
+.homepage-half-column-header .uc-page-wrap { width: 100% }
+.homepage-half-column-header { margin-left: 10px }
+.homepage-full-column .homepage-half-column:first-child .homepage-half-column-header { padding-right: 0px }
 
-#eventspanel-column-content .edit-mode-page, #twitter-feed-column-content .edit-mode-page { margin-left: 10px }
+
 
 .threecol {width: 25% !important;}
 
