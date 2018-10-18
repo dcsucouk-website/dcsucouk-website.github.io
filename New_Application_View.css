@@ -6473,7 +6473,7 @@ h2 {
   -webkit-border-radius: 10px 10px 10px 10px;
   width: 200px;
   background: #fff;
-  margin: 0 auto;
+  margin: 0 0 0 auto !important;
 }
 
 .search-box .search-box-wrapper .search-input {
@@ -6847,14 +6847,14 @@ h2 {
 }
 
 .event-type-title h2 {
-  background: none repeat scroll 0 0 #f6f6f6;
+  background: none repeat scroll 0 0 #fff !important;
   color: #4a0a6a;
   font-size: 1.6em;
   margin: 0 12px;
   padding: 10px;
   border-style: solid;
   border-color: #cbcbc9;
-  border-width: 1px 0 0 1px;
+  border-width: 0px !important;
   text-align: center;
 }
 
