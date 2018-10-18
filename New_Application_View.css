@@ -3204,7 +3204,7 @@ img {
 }
 
 .tree-navigation-structure #uc-left-navigation {
-  background: none repeat scroll 0 0 #f4f4f4;
+  background: none repeat scroll 0 0 #fff !important;
   padding: 0 10px;
 }
 
@@ -3258,8 +3258,7 @@ img {
 #uc-left-navigation li {
   margin: 0;
   padding: 3px 0 3px 0;
-  background: none repeat scroll 0 0 #f4f4f4;
-  border-top: 1px solid #e1e1e1;
+  background: none repeat scroll 0 0 #fff !important;
   position: relative;
   list-style: none;
   line-height: 1.3em;
@@ -3282,7 +3281,7 @@ img {
 }
 
 #uc-left-navigation li.collapsable>a,#uc-left-navigation li.expandable>a {
-  background: 0;
+  background: #42d9f4 !important;
 }
 
 #uc-left-navigation li ul li a {
@@ -11642,7 +11641,7 @@ blockquote {
 }
 
 .uc-widget-upcoming-events-wrapper #uc-widget-upcoming-events-right-panel {
-  background: none repeat scroll 0 0 #f6f6f6;
+  background: none repeat scroll 0 0 #fff !important;
 }
 
 .uc-widget-upcoming-events-wrapper #uc-widget-upcoming-events-right-panel .with-image-description {
