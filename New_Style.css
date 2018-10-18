@@ -1368,7 +1368,7 @@ span.success,p.success {
 .tree-navigation {
   font-family: "CenturyGothic",Arial,Helvetica,sans-serif;
   font-weight: normal;
-  background: url(/themes/dcsu_default/images/tree-nav-top.png) top center no-repeat #f6f6f6;
+  background: url(/themes/dcsu_default/images/tree-nav-top.png) top center no-repeat #fff !important;
   margin: 0 0 15px 0;
 }
 
@@ -1680,7 +1680,7 @@ h2 {
 }
 
 #eventcarousel {
-  background: none repeat scroll 0 0 #f4f4f4;
+  background: none repeat scroll 0 0 #fff !important;
   border: 0px solid #DDDDDD;
   border-radius: 0px 0px 0px 0px;
   -moz-border-radius: 0px 0px 0px 0px;
