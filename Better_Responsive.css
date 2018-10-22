@@ -1,3 +1,5 @@
+/* Version 1.01 */
+
 .uc-widget-article-footer { margin-top: 7px }
 
 @media screen and (max-width: 767px){
@@ -11,12 +13,11 @@
     .column.homepage-half-column { padding-left: 10px!important; }
 }
 
-//added
 .articleImg {
-    max-width:100%;
-    max-height:400px;
-    width:100%;
-    height:auto;
+    max-width: 100%;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
