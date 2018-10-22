@@ -1,13 +1,5 @@
 .uc-widget-article-footer { margin-top: 7px }
 
-.articleImg {
-    max-width:100%;
-    max-height:400px;
-    width:100%;
-    height:auto;
-    object-fit: cover;
-}
-
 @media screen and (max-width: 767px){
     .homepage-full-column .column-content.homepage-half-column { width: 100% !important; }
     .column.homepage-half-column { width: 100% !important }
@@ -17,6 +9,14 @@
 @media screen and (min-width:768px) {
     .homepage-full-column .column-content.homepage-half-column { width: 50% !important; }
     .column.homepage-half-column { padding-left: 10px!important; }
+}
+
+.articleImg {
+    max-width:100%;
+    max-height:400px;
+    width:100%;
+    height:auto;
+    object-fit: cover;
 }
 
 div#latest-events-column-column-content {}
