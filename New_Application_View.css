@@ -1,3 +1,5 @@
+/* Version 1.01 */
+
 .ui-helper-hidden {
   display: none;
 }
@@ -3058,7 +3060,7 @@ img {
 @media only screen and (max-width:1023px) {
   body {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.4em !important;
   }
 
   .row,body {
@@ -4552,7 +4554,7 @@ h1 {
   background: url('default/tree-nav-heading.png') center right no-repeat #333;
   color: #fff;
   margin-bottom: 3px;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 5px 5px 15px !important;
   font-size: 1.2em;
   font-weight: normal;
 }
@@ -12864,7 +12866,9 @@ table.table-grid tr:nth-child(even) {
   }
 
   .group-box {
-    width: 95%;
+    width: auto !important;
+    margin-right: 0px !important;
+    padding: 5px !important;
   }
 
   .ninecol #grouppromotioncarousel .jcarousel-skin-tango .jcarousel-clip-horizontal {
@@ -13845,7 +13849,7 @@ table.table-grid tr:nth-child(even) {
   }
 
   .uc-lang-active-welsh .myaccount-shopping-details .order-grid td:nth-of-type(3):before {
-    content: "Swm yr archeb (Â£)";
+    content: "Swm yr archeb (Ã‚Â£)";
   }
 
   .uc-lang-active-welsh .myaccount-shopping-details .order-grid td:nth-of-type(4):before {
@@ -14134,7 +14138,7 @@ table.table-grid tr:nth-child(even) {
   }
 }
 
-@media handheld,only screen and (max-width:480px) {
+@media handheld, only screen and (max-width: 480px) {
   .join-this-group.button-top,.join-this-group.button-bottom,.addthis_toolbox {
     float: left;
   }
@@ -14283,7 +14287,7 @@ table.table-grid tr:nth-child(even) {
 
   .categoryBox {
     border: 0 none;
-    margin: 10px auto;
+    /* margin: 10px auto !important; */
     width: 100%;
   }
 

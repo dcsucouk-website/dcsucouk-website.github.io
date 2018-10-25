@@ -1,3 +1,25 @@
+/* Version 1.01 */
+
+/* Added for Consistency */
+body { line-height: 1.4em !important }
+/* Added for Groups Widget */
+
+.group-type-name { display:none !important }
+.search.group-search { display: none !important }
+.club-container { margin: 10px auto 0px auto !important }
+.categoryBox.all-groups {/* padding-right: 10px !important */}
+.content .group-category-title h2 {/* margin: 0 10px 0 0px !important; */}
+.group-types {/* margin: 10px 10px 10px 0px !important; */}
+#uc-group-homepage .page-separator-wrapper { padding-bottom: 10px !important }
+
+/* End Groups Widget */
+
+/* REMOVED BUY TICKETS AS SYSTEM DOES NOT WORK */
+.buy-this-now { display:none !important}
+.availableTickets { display:none !important}
+.uc-ticket-qty-addcart { display:none !important}
+/* END REMOVED BUY TICKETS AS SYSTEM DOES NOT WORK */
+
 #uc-sv-content-container .uc-sv-legends {display: none !important}
 #uc-sv-left-panel { width: 100% !important}
 .uc-sv-details-container { padding-top: 36px !important}
@@ -2331,9 +2353,9 @@ html ul.tabs li.active a:hover {
 }
 
 .wrap .content-wrap.home-content-wrap.subsites.ninecol.last {
-  padding: 0 0 0 1em;
+  padding: 0 0 0 0 !important;
   width: 73.5%;
-  background: url("/themes/dcsu_default/images/content-left-bg.png") no-repeat scroll left top transparent;
+  background: none !important;
 }
 
 .edit_event .ninecol > div.portlet {
@@ -2366,7 +2388,7 @@ html ul.tabs li.active a:hover {
 
 .tree-navigation ul li {
   margin-bottom: 1px;
-  padding-top: 15px;
+  padding-top: 10px !important;
 }
 
 .tree-navigation ul li.selected {
@@ -2378,7 +2400,7 @@ html ul.tabs li.active a:hover {
 }
 
 .tree-navigation.club-navigation ul li {
-  padding: 10px 20px;
+  /* padding: 10px 10px !important; */
 }
 
 .tree-navigation ul.latestEventLeftSide li.selected a {
