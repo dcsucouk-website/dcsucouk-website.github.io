@@ -1,5 +1,6 @@
 /* Version 1.01 */
 
+<<<<<<< HEAD
 /* Added for Consistency */
 body { line-height: 1.4em !important }
 /* Added for Groups Widget */
@@ -14,6 +15,8 @@ body { line-height: 1.4em !important }
 
 /* End Groups Widget */
 
+=======
+>>>>>>> 51bef39168bf5d4ab475bf31e5d7fa0898365dd1
 /* REMOVED BUY TICKETS AS SYSTEM DOES NOT WORK */
 .buy-this-now { display:none !important}
 .availableTickets { display:none !important}
