@@ -3517,8 +3517,11 @@ abbr {
     background: url(/themes/dcsu_default/images/unioncloud-logo-ipad.png) center no-repeat transparent;
     display: block;
     width: 100% !important;
-    height: 75px !important;
+    height: 140px !important;
     background-size: 120px !important;
+    /* max-width: 100% !important; */
+    max-height: 200px !important;
+    max-width: 200px !important;
   }
 
   .top,.top-union,.top-union-subsite {
@@ -3668,7 +3671,7 @@ abbr {
 
   .page-search {
     left: auto;
-    right: 185px;
+    right: 0 !important;
   }
 
   .page-search .search-box .search-box-wrapper {
@@ -3714,7 +3717,8 @@ abbr {
   }
 
   .breadcrumb {
-    margin: 5px 5px 0;
+    /* margin: 20px 5px 0 !important; */
+    margin-top:  10px !important;
   }
 
   .question-buttons a.buttonLink {
@@ -4022,7 +4026,7 @@ abbr {
     padding-bottom: 0;
     padding-top: 0px;
     width: 100% !important;
-    margin: 0px;
+    margin: 0px !important;
     top: 25px;
     z-index: 0;
     background: no-repeat center !important;
@@ -7315,8 +7319,9 @@ abbr {
     padding: 0;
     position: relative;
     right: 0;
-    top: 0;
+    top: 5px !important;
     width: 95%;
+    margin-top: 10px !important;
   }
 }
 
