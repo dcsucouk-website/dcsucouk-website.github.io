@@ -275,6 +275,7 @@ html
     background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white;
     position: relative;
     margin: 0 auto;
+    height: 40px;
 }
 .section.grid {/* margin-top: 10px !important; */margin-bottom: 10px;background: white;}
 .section.grid h2 { margin-left: 5px; margin-top: 5px}
