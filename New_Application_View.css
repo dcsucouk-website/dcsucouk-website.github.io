@@ -6691,9 +6691,9 @@ h2 {
 }
 
 .group-types {
-  background: url("default/group-types-bg.png") repeat-y scroll left top transparent;
-  border-bottom: 15px solid #999;
-  border-top: 15px solid #999;
+  background: none !important;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
   color: #333;
   display: block;
   margin: 10px 13px;
@@ -6701,8 +6701,8 @@ h2 {
 }
 
 .group-types-wrapper {
-  min-height: 220px;
-  background: url("default/group-types-bg.png") repeat-y scroll right top transparent;
+  min-height: 1px !important;
+  background: NONE !IMPORTANT;
   margin: 0 0 0 15px;
 }
 
@@ -6718,12 +6718,17 @@ h2 {
   display: block;
   overflow: hidden;
   padding: 5px;
+  padding-left: initial;
   text-overflow: ellipsis;
   white-space: nowrap;
+  /* margin-left: -15px !important; */
 }
 
 .group-types ul li.active {
-  background: #fff;
+  background: #384352 !important;
+  margin-left: -15px !important;
+  padding: 10px 20px !important;
+  color: #fff !important;
 }
 
 .group-types ul li.active a {
@@ -6754,11 +6759,11 @@ h2 {
 }
 
 #uc-group-homepage .uc-group-list-page-wrapper {
-  margin: 0 0 15px;
+  margin: 0 !important;
 }
 
 #uc-group-homepage .page-separator-wrapper {
-  padding: 0 0 15px 0;
+  padding: 0 1px 0 !important;
 }
 
 #uc-group-homepage .page-separator-wrapper .page-separator {
@@ -6769,7 +6774,6 @@ h2 {
   font-size: 13px;
   font-style: normal;
   font-weight: normal;
-  margin: 0;
   padding: 10px;
   clear: both;
 }
@@ -14315,7 +14319,7 @@ table.table-grid tr:nth-child(even) {
   }
 
   .group-types {
-    background: url("default/group-types-bg.png") repeat-y scroll left top transparent;
+    background: NONE !IMPORTANT;
     border-bottom: 15px solid #999;
     border-top: 15px solid #999;
     color: #333;

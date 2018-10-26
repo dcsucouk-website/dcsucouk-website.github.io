@@ -2428,7 +2428,9 @@ html ul.tabs li.active a:hover {
 }
 
 .group-types ul li.active a {
-  color: black;
+  color: white !important;
+  font-weight:  normal !important;
+  font-size: 13px !important;
 }
 
 .group-details {
@@ -4293,7 +4295,7 @@ abbr {
   }
 
   div.wrapper div.row div.wrap {
-    margin: 10px;
+    margin: 10px 10px 0px 10px !important;
   }
 
   .sub-site-page-html .content,.sub-site-home-html .content {
@@ -4457,6 +4459,7 @@ abbr {
     background: none repeat scroll 0 0 transparent;
     padding: 0 2%;
     width: 96%;
+    margin-bottom:  0px !important;
   }
 
   #right-content h1 {
@@ -4910,6 +4913,7 @@ abbr {
   .group-box {
     margin: 5px auto;
     width: 96%;
+    margin-bottom: 0px !important;
   }
 
   .content .signIn h2,.signIn h2,.sign-up h2,.confirmation-email h2,.unlock h2,.change-password h2,.portlet .title h1,.verifyTickets .title h1 {
@@ -5330,6 +5334,7 @@ abbr {
 
   .categoryBox {
     width: 92%;
+    margin-bottom:  0px !important;
   }
 
   .sixcol .group-box {
