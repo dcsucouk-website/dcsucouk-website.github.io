@@ -1,4 +1,4 @@
-/* Version 1.01 */
+/* Version 1.02 */
 
 .ui-helper-hidden {
   display: none;
@@ -9666,11 +9666,13 @@ abbr {
   clear: both;
   display: block;
   margin-bottom: 10px;
+  display: none !important;
 }
 
 .buy-this-now.button-bottom {
   clear: both;
   display: block;
+  display: none !important;
 }
 
 .group-cms-wrapper .buy-this-now.button-top,.group-cms-wrapper .buy-this-now.button-bottom {
