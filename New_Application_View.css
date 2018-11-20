@@ -1,4 +1,4 @@
-/* Version 1.02 */
+/* Version 1.03 */
 
 .ui-helper-hidden {
   display: none;
@@ -11577,6 +11577,7 @@ blockquote {
   top: 0;
   z-index: 1;
   line-height: 1em;
+  display: none !important;
 }
 
 .uc-widget-upcoming-events-wrapper {
