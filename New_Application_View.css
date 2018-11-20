@@ -1,4 +1,13 @@
-/* Version 1.03 */
+/* Version 1.04 */
+
+div#advert-column-content {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+div#about-su-column-content {
+    width: 100%;
+}
 
 .ui-helper-hidden {
   display: none;
