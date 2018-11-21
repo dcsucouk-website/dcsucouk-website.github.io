@@ -1,3 +1,6 @@
+/* VERSION v1.01 */
+
+/* SEPECIFIC TO JOBS 4 STUDENTS PAGE */
 div#jobs4studentsevents .uc-upcoming-event-widget-title {
     display: none;
 }
@@ -16,4 +19,17 @@ div#jobs4studentsevents .search.eventsearch {
 
 div#jobs4studentsevents .with-image-description {
     padding: 0 !important;
+}
+
+/* GENERIC EVENTS SEARCH PAGE */
+.tree-navigation.club-navigation h3 {
+    display: none;
+}
+
+.search.eventsearch {
+    display: none;
+}
+
+.uc-upcoming-event-widget-title {
+    display: none;
 }
