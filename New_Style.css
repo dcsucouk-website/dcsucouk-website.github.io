@@ -1,4 +1,12 @@
-/* Version 1.02 */
+/* Version 1.03 */
+
+/* Puts editting border inside div not outside */
+
+.page-content-html .uc-inside-left-border {
+    outline: 2px dashed orange;
+    outline-offset: -3px;
+    border: 0 !important;
+}
 
 <<<<<<< HEAD
 /* Added for Consistency */
@@ -1553,7 +1561,7 @@ span.success,p.success {
 }
 
 .content .row .content-wrap {
-  margin: 15px 0 !important;
+  margin: 0 0 !important;
 }
 
 
