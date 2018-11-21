@@ -1,4 +1,11 @@
-/* Version 1.04 */
+/* Version 1.06 */
+
+/* set page width to 100%, no overflow */
+body {
+    width: 100% !important;
+    overflow: hidden !important;
+}
+/* end */
 
 div#advert-column-content {
     width: 100%;
