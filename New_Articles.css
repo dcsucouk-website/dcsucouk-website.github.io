@@ -7,6 +7,12 @@
     object-fit: cover;
     /* position: absolute; */
 }
+.content-wrap.home-content-wrap img {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 300px;
+    object-fit: cover;
+}
 
 @font-face{
 font-family:'CenturyGothic';
