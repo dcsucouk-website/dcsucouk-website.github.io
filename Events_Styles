@@ -1,0 +1,19 @@
+div#jobs4studentsevents .uc-upcoming-event-widget-title {
+    display: none;
+}
+
+div#jobs4studentsevents div#uc-widget-upcoming-events-left-panel {
+    display: none;
+}
+
+div#jobs4studentsevents div#uc-widget-upcoming-events-right-panel {
+    width: 100% !important;
+}
+
+div#jobs4studentsevents .search.eventsearch {
+    display: none;
+}
+
+div#jobs4studentsevents .with-image-description {
+    padding: 0 !important;
+}
