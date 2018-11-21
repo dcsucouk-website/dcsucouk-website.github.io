@@ -1,4 +1,4 @@
-/* Version 1.03 */
+/* Version 1.04 */
 
 /* Puts editting border inside div not outside */
 
@@ -1813,6 +1813,7 @@ h2 {
   font-family: "CenturyGothicBold",Arial,Helvetica,sans-serif;
   font-weight: normal;
   color: #0066ff;
+  display: none !important;
 }
 
 .tree-navigation .title h1 {
