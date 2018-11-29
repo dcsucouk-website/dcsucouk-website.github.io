@@ -1,4 +1,4 @@
-/* Version 1.02 */
+/* Version 1.03 */
 
 <<<<<<< HEAD
 
@@ -14,6 +14,12 @@
     .categoryBox { width: 100% !important; margin-top: 10px !important }
     .categoryBox.all-groups { padding: 0 !important}
     .group-category-title h2 { font-size: 1.6em !important }
+    .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
+        font-size: 10vw !important
+    }
+    .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
+        background-color: none !important   
+    }
 } 
 
 @media handheld, only screen and (max-width: 480px) {
@@ -27,6 +33,12 @@
 
 @media screen and (min-width: 481px){
     .show_small { display: none !important}
+    .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
+        font-size: 8vw !important
+    }
+    .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
+        background-color: #42d9f4 !important;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -41,6 +53,7 @@
     .group-types { margin: 10px 0 0 0 !important }
     .ninecol.group-list { width: 100% !important }
     .categoryBox.all-groups { padding: 0 !important}
+
 }
 
 @media screen and (min-width:768px) {
@@ -53,6 +66,12 @@
     .content .group-category-title h2 { margin: 0 10px 0 10px !important }    
     .group-types {margin: 10px 10px 10px 10px !important;}
     .categoryBox.all-groups { padding-right: 10px !important}
+    .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
+        font-size: 6vw !important
+    }
+    .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
+        background-color: #42d9f4 !important;
+    }
 }
 
 
@@ -230,7 +249,7 @@ div#latest-events-column-column-content {}
 .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
     font-family: 'Fredericka the Great', cursive !important;
     position: relative;
-    font-size: 6em !important;
+    //font-size: 6vw !important;
     line-height: .9em;
     color: #000;
     text-shadow: -5px 5px 0 rgba(40,40,40,0.3);
@@ -251,7 +270,7 @@ div#latest-events-column-column-content {}
     opacity: .3;
     width: 60%;
     height: 90%;
-    background-color: #42d9f4;
+    //background-color: #42d9f4;
     z-index: -1;
 }
 .content .row .content-wrap.ninecol > div { background: none !important}
