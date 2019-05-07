@@ -287,8 +287,8 @@ div#latest-events-column-column-content {}
 .wrapper {background: transparent !important }
 html
     {
-        //
-        background-color: #010440 !important;
+        //background-color: black !important;
+        background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;        background-color: #010440 !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
