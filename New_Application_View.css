@@ -3031,7 +3031,8 @@ figure img {
 
 .row.header {
   /* width: 100%; */
-  margin: 0px auto 20px !important;
+  margin: 0px auto 0px !important;
+  padding-bottom: 5px;
 }
 
 .onecol,.twocol,.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol,.ninecol,.tencol,.elevencol,.twelvecol {
