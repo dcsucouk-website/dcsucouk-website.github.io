@@ -21491,7 +21491,7 @@ div.scrollableArea {
 
 #hidden-section {display: none}
 
-#homepage-tabs {margin-top: 10px !important;background: #fff;margin-bottom: 20px !important;padding: 0px !important;}
+#homepage-tabs {margin-top: 0px !important;background: #fff;margin-bottom: 0px !important;padding: 0px !important;}
 #homepage-tabs .tab-content-wrapper-box {height:100% !Important}
 #homepage-tabs .tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {padding: 0px !important}
 
