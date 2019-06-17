@@ -7273,7 +7273,7 @@ abbr {
 }
 
 .top-ad {
-  margin: 0 auto;
+  margin: 0;
 }
 
 .top-ad {
@@ -7329,18 +7329,18 @@ abbr {
   .top-ad {
     left: 0;
     min-height: 70px;
-    padding: 0;
+    padding: 0 0 -6px 0 !important;
     position: relative;
     right: 0;
     top: 0;
-    width: 95%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width:480px) {
   .top-ad {
     left: 0;
-    padding: 0px !important;
+    padding: 0 0 -6px 0 !important;
     position: relative;
     right: 0;
     top: 0px !important;
