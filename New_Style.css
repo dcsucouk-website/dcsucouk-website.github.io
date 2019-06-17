@@ -4387,7 +4387,7 @@ abbr {
   .page-search .search-box .search-box-wrapper {
     position: absolute;
     right: 10px;
-    top: 25px !important;
+    top: -25px !important;
     width: 96% !important;
     z-index: 1001;
     border: 3px solid #CCCCCC;
