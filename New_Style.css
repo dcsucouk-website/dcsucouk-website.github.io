@@ -1,5 +1,7 @@
 /* Version 1.04 */
 
+div#derby-college-students-union { background-color: white }
+
 /* FONT SIZE CHANGES */
 #latest-events .event-widget.with-image-description .top-events li .date {font-size: 0.75em !important}
 #latest-events .event-widget .top-events li .event-content .name, #latest-events .event-widget.with-image-description .top-events li .name {font-size:0.8em !important}
@@ -114,6 +116,7 @@ em strong,strong em {
 .header-wrap {
   padding: 50px 0 0;
   position: relative;
+  background-color: white !important;
 }
 
 .wrapper {
