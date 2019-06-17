@@ -203,7 +203,7 @@ div#latest-events-column-column-content {}
 
 .search.page-search {
     position: absolute !important;
-    top: 150px !important;
+    top: 170px !important;
     height: 20px !important;
 }
 
@@ -213,6 +213,7 @@ div#latest-events-column-column-content {}
     /* left:0px !important; */
     /* height:50px !important; */
     /* z-index: 1000; */
+    padding: 0px !important;
 }
 }
 
