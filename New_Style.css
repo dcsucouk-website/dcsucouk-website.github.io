@@ -114,9 +114,10 @@ em strong,strong em {
 }
 
 .header-wrap {
-  padding: 50px 0 0;
+  padding: 0 !important;
   position: relative;
   background-color: white !important;
+  min-height: 130px !important;
 }
 
 .wrapper {
@@ -3858,7 +3859,7 @@ abbr {
 
   .header {
     margin-top: 0;
-    padding: 10px 0;
+    padding: 0 !important;
     position: relative;
   }
 
@@ -3893,10 +3894,11 @@ abbr {
     font-family: 'Roboto', sans-serif !important;
     font-weight: normal;
     top: 15px;
-    z-index: 1001;
+    z-index: 900 !important;
     padding: 10px;
     box-shadow: 0 0px 0px #999999;
     font-size: 20px;
+    height: 40px !important;
   }
 
   .phone-menu-icon {
