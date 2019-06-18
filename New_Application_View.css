@@ -3032,7 +3032,10 @@ figure img {
 .row.header {
   /* width: 100%; */
   margin: 0px auto 0px !important;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
+  padding-top: 55px !important;
+  position: relative !important;
+  /* top: -40px !important; */
 }
 
 .onecol,.twocol,.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol,.ninecol,.tencol,.elevencol,.twelvecol {
@@ -21512,3 +21515,18 @@ div.scrollableArea {
 .more-article-block, .uc-articles-tags { display: none }
 
 .uc-widget-articles-container {margin-top: 0px !important}
+
+@media screen and (min-width: 768px){
+    .header-wrap {
+        min-height:200px !important;
+    }
+    .union-logo {
+        left:10px !important
+    }
+    .row.header {
+        padding-top: 40px !important;
+    }
+    .top-ad img {
+    width: 100% !important;
+}
+}
