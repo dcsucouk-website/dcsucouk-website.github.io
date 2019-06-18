@@ -60,18 +60,6 @@
     margin-bottom:-6px;
 }
 
-@media screen and (min-width: 768px){
-    .header-wrap {
-        min-height:200px !important
-    }
-    .union-logo {
-        left:10px !important
-    }
-
-    .top-ad img {
-    width: 100% !important;
-}
-}
 
 
 <<<<<<< HEAD
@@ -540,11 +528,11 @@ div#latest-events-column-column-content {}
 #social-content-wrap { padding:0px !important; }
 .hidden-md {display:none;}
 
-.header-wrap { 
+.header-wrap {
     position: absolute;
-    top:40px !important;
+    /* top:40px !important; */
     padding: 0px !important;
-    height: 220px !important;
+    height: 190px !important;
 }
 
 #union-logo {
@@ -688,3 +676,18 @@ html
 #twitter-feed-column-content .uc-page-wrap, #facebook-feed-column-content .uc-page-wrap {/* width:100% !important; *//* padding-left:10px !important */}
 
 .section.column.personal-blog-box .uc-widget-articles-container { padding: 0px }
+
+@media screen and (min-width: 768px){
+    .header-wrap {
+        min-height:200px !important;
+    }
+    .union-logo {
+        left:10px !important
+    }
+    .row.header {
+        padding-top: 40px !important;
+    }
+    .top-ad img {
+    width: 100% !important;
+}
+}
