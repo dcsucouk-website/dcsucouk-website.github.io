@@ -184,7 +184,7 @@ div#latest-events-column-column-content {}
 .threecol-img-banner {display: visible}
 .full-img-banner { display: none}
 .uc-widget-articles-container {/* padding: 10px !important; */}
-    .uc-widget-student-voices-wrapper { padding: 0px 10px !important }
+    .uc-widget-student-voices-wrapper { padding: 0px 10px 0px 0px !important }
 #social-content-wrap { padding: 10px !important; }
 #twitter-feed-column-content, #eventspanel-column-content {/* margin-left: 10px; */}
 
