@@ -184,6 +184,7 @@ div#latest-events-column-column-content {}
 .threecol-img-banner {display: visible}
 .full-img-banner { display: none}
 .uc-widget-articles-container {/* padding: 10px !important; */}
+    .uc-widget-student-voices-wrapper { padding: 0px 10px !important }
 #social-content-wrap { padding: 10px !important; }
 #twitter-feed-column-content, #eventspanel-column-content {/* margin-left: 10px; */}
 
@@ -192,7 +193,7 @@ div#latest-events-column-column-content {}
 @media screen and (min-width:481px) and (max-width: 767px){
 .ninecol { width:100% !important;}
 .threecol {width: 100% !important;margin: 0px !important;clear: both !important;float: left !important; }
-.uc-widget-student-voices-wrapper {padding:0px !important}
+.uc-widget-student-voices-wrapper {padding:0px 10px !important}
 .content-wrap.home-content-wrap.subsites.ninecol.last {padding-left:0px;}
 #footer .fourcol.column-content { clear: none !important; float: left !important; width: 50% !important; margin: auto !important}
 }
