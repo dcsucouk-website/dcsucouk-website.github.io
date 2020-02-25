@@ -14,6 +14,29 @@
     object-fit: cover;
 }
 
+.grid_of_3 p {
+    display: inline !important
+
+}
+
+.grid_of_3 p a img {
+    width: 30% !important;
+    max-width:30% !important;
+    margin-right: 5% !important;
+    border: 0 !important
+}
+
+.grid_of_3 p a:nth-child(3) img {
+    margin-right: 0% !important;    
+}
+
+@media screen and (max-width:400px) {
+    .grid_of_3 p a img {
+        width:100% !important;
+        max-width:100% !important;
+    }
+}
+
 @font-face{
 font-family:'CenturyGothic';
 src:url("fonts/CenturyGothic.eot");
