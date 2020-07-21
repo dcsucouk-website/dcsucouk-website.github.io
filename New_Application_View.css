@@ -1,3 +1,26 @@
+.content-wrap {
+  width: 100% !important;
+  /* margin-right: auto !important; */
+  /* background: #d92567; */
+}
+
+.content-wrap {
+  background:#d92567 !important
+}
+
+.column-wrap {
+  /* width: 980px !important; */
+  /* margin: 0 auto !important; */
+  /* padding: 5px 0px !important; */
+  /* background: white; */
+}
+
+.section.column, .section.slider  {
+  padding-top: 5px !important;
+  background:white !important
+  
+}
+
 /* Version 1.10 */
 
 /* Home Page Vertical Advert Styles */
@@ -3030,12 +3053,13 @@ figure img {
 }
 
 .row.header {
-  /* width: 100%; */
-  margin: 0px auto 0px !important;
+  width: 100%;
+  /* margin: 0px auto 0px !important; */
   /* padding-bottom: 5px; */
-  padding-top: 55px !important;
-  position: relative !important;
+  /* padding-top: 55px !important; */
+  /* position: absolute !important; */
   /* top: -40px !important; */
+  height: 184px !important;
 }
 
 .onecol,.twocol,.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol,.ninecol,.tencol,.elevencol,.twelvecol {
@@ -3782,8 +3806,11 @@ div#notice.info {
 }
 
 .row.top, .row.top-subsite {
-  top: 38px;
+  /* top: 0; */
   margin-bottom: 0px !important;
+  width: 100% !important;
+  position: absolute;
+  top: 0px !important;
 }
 
 .menu {
@@ -3799,6 +3826,7 @@ div#notice.info {
 
 .menu ul {
   list-style: none;
+  display: inline-block;
 }
 
 .menu ul li {
@@ -4551,6 +4579,8 @@ h1 {
 
 #breadcrumb-container {
   clear: both;
+  width: 980px !important;
+  margin: 0 auto;
 }
 
 #breadcrumb {
@@ -21524,7 +21554,7 @@ div.scrollableArea {
         left:10px !important
     }
     .row.header {
-        padding-top: 40px !important;
+        /* padding-top: 40px !important; */
     }
     .top-ad img {
     width: 100% !important;
