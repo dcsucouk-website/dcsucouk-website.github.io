@@ -1,4 +1,8 @@
+
+
+
 /* Version 1.04 */
+
 
 div#derby-college-students-union { background-color: white }
 
@@ -106,7 +110,7 @@ em strong,strong em {
 
 .header,.menu,.content,.top,.top-union {
   margin: 0 auto;
-  width: 980px;
+  width: 100% !important;
 }
 
 .page-content-html .content {
@@ -247,7 +251,7 @@ em strong,strong em {
   font-weight: normal;
   font-size: 1em;
   position: absolute;
-  top: 0px;
+  top: 145px !important;
   margin: 0;
   height: 30px;
   border: 0 none;
@@ -264,7 +268,7 @@ em strong,strong em {
 }
 
 .menu ul li {
-  background: url(/themes/dcsu_default/images/top-menu-separator.png) right center no-repeat transparent;
+  background: none !important;
 }
 
 .menu ul li a {
@@ -275,7 +279,7 @@ em strong,strong em {
 .menu ul li span, .menu
  ul li div a {
   padding: 12px 30px 12px 15px;
-  background: url("/themes/dcsu_default/images/navigation-arrow.png") no-repeat scroll right center transparent;
+  background: none !important;
   color: white;
 }
 
@@ -417,6 +421,9 @@ span.success,p.success {
 .section {
   border: 0 none;
   /* margin: 0px 0px 20px 0px !important; */
+  width: 980px;
+  margin: 0 auto !important;
+  /* padding-top: 5px !important; */
 }
 
 .bottom,.bottom-union {
@@ -7100,6 +7107,8 @@ abbr {
 
 .menu {
   font-size: 0.8em;
+  width: 100% !important;
+  top: -40px;
 }
 
 #latest-articles .article-widget.with-image-description .top-articles li .date {
