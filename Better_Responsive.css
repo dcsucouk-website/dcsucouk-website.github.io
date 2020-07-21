@@ -635,18 +635,22 @@ div#latest-events-column-column-content {}
 .wrapper {background: transparent !important }
 html
     {
-        //background-color: black !important;
-        background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;        background-color: #010440 !important;
+        //
+        background-color: black !important;
+        /* background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important; */
+        background-color: white !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
         background-attachment: fixed !important;
     }
 .nav-wrap {
-    background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white;
+    /* background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white; */
     position: relative;
     margin: 0 auto;
     height: 40px;
+    background: black;
+    text-align: center;
 }
 .section.grid {/* margin-top: 10px !important; */margin-bottom: 10px;background: white;}
 .section.grid h2 { margin-left: 5px; margin-top: 5px}
@@ -659,7 +663,7 @@ html
 #columned-wrap {margin: 0px 10px 0px 10px;}
 .tab .ui-widget-header {/* background: #FFF !important */}
 .tab .ui-tabs .ui-tabs-panel { background: none !important}
-.row.content {background: #FFF;}
+.row.content {/* background: #d92567; *//* padding-top: 5px; */}
 
 .threecol.last {float: right;width: 25% !important;}
 .ninecol {width: 75%; margin-right: 0px }
@@ -686,9 +690,10 @@ html
         left:10px !important
     }
     .row.header {
-        padding-top: 40px !important;
+        /* padding-top: 40px !important; */
     }
     .top-ad img {
     width: 100% !important;
 }
 }
+
