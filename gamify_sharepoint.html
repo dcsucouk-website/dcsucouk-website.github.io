@@ -1,11 +1,11 @@
 <html>
 <head>
   <script>
-    var paramsString = "ID=1&secret=n2d9hd2woudh92";
+    //var paramsString = "ID=1&secret=n2d9hd2woudh92";
     var searchParams = new URLSearchParams(location.search);
 
     //Iterate the search parameters.
-    console.log('Test 5')
+    console.log('Test 6')
     
     opts = {
       ID : parseInt(searchParams.get("ID")),
@@ -24,6 +24,9 @@
             },
             body: JSON.stringify(opts)
           })
+      .then(response => {
+        console.log(response)
+      })
     }
 </script>
 </head>
