@@ -1,11 +1,10 @@
 <html>
 <head>
   <script>
-    //var paramsString = "ID=1&secret=n2d9hd2woudh92";
     var searchParams = new URLSearchParams(location.search);
 
     //Iterate the search parameters.
-    console.log('Test 11')
+    console.log('Test 12')
     
     opts = {
       ID : parseInt(searchParams.get("ID")),
@@ -29,6 +28,7 @@
       })
       .then(data => {
         console.log(data)
+        if ( data.url ){ top.location.href = data.url } else { document.write (data.success.replace("[points]",data.points) }
       })
     }
 </script>
