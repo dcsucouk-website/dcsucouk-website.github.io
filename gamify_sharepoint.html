@@ -4,12 +4,14 @@
     var searchParams = new URLSearchParams(location.search);
 
     //Iterate the search parameters.
-    console.log('Test 12')
+    console.log('Test 13')
     
     opts = {
       ID : parseInt(searchParams.get("ID")),
       secret : searchParams.get("secret")
     }
+    
+    url_override = searchParams.get("redirect")
     
     console.log(opts)
     
@@ -28,7 +30,9 @@
       })
       .then(data => {
         console.log(data)
-        if ( data.url ){ top.location.href = data.url } else { document.write (data.success.replace("[points]",data.points)) }
+        if ( url_override ) { top.location.href = url_override } else {
+          if ( data.url ){ top.location.href = data.url } else { document.write (data.success.replace("[points]",data.points)) }
+        }
       })
     }
 </script>
