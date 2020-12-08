@@ -1,14 +1,16 @@
 <html>
 <head>
   <script>
-    var paramsString = "q=URLUtils.searchParams&topic=api";
+    var paramsString = "ID=1";
     var searchParams = new URLSearchParams(paramsString);
 
     //Iterate the search parameters.
-    for (let p of searchParams) {
-       console.log(p);
+    console.log('Test 1')
+    opts = {
+      ID : searchParams.ID
     }
-    fetch('https://prod-104.westeurope.logic.azure.com:443/workflows/21c5b56eca9c4a81b84b75935dfff76b/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=FzavrcRUz0vK5njrnYm7T7Lb0M6mjxo6yBzjg680iw8', { method: 'POST', body: 'sadasd'})
+    
+    fetch('https://prod-104.westeurope.logic.azure.com:443/workflows/21c5b56eca9c4a81b84b75935dfff76b/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=FzavrcRUz0vK5njrnYm7T7Lb0M6mjxo6yBzjg680iw8', { method: 'POST', JSON.stringify(opts)})
 </script>
 </head>
 </html>
