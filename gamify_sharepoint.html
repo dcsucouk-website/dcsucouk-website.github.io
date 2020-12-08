@@ -8,8 +8,8 @@
     console.log('Test 4')
     
     opts = {
-      ID : searchParams.ID,
-      secret : searchParams.secret
+      ID : searchParams.get("ID"),
+      secret : searchParams.get("secret")
     }
     
     console.log(opts)
