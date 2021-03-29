@@ -1,15 +1,4 @@
-
-
-
 /* Version 1.04 */
-
-
-div#derby-college-students-union { background-color: white }
-
-/* FONT SIZE CHANGES */
-#latest-events .event-widget.with-image-description .top-events li .date {font-size: 0.75em !important}
-#latest-events .event-widget .top-events li .event-content .name, #latest-events .event-widget.with-image-description .top-events li .name {font-size:0.8em !important}
-#latest-events .event-widget.with-image-description .top-events li .event-description {font-size: 0.6em !important }
 
 /* Puts editting border inside div not outside */
 
@@ -110,7 +99,7 @@ em strong,strong em {
 
 .header,.menu,.content,.top,.top-union {
   margin: 0 auto;
-  width: 100% !important;
+  width: 980px;
 }
 
 .page-content-html .content {
@@ -118,10 +107,8 @@ em strong,strong em {
 }
 
 .header-wrap {
-  padding: 0 !important;
+  padding: 50px 0 0;
   position: relative;
-  background-color: white !important;
-  min-height: 130px !important;
 }
 
 .wrapper {
@@ -251,7 +238,7 @@ em strong,strong em {
   font-weight: normal;
   font-size: 1em;
   position: absolute;
-  top: 145px !important;
+  top: 0px;
   margin: 0;
   height: 30px;
   border: 0 none;
@@ -268,7 +255,7 @@ em strong,strong em {
 }
 
 .menu ul li {
-  background: none !important;
+  background: url(/themes/dcsu_default/images/top-menu-separator.png) right center no-repeat transparent;
 }
 
 .menu ul li a {
@@ -279,7 +266,7 @@ em strong,strong em {
 .menu ul li span, .menu
  ul li div a {
   padding: 12px 30px 12px 15px;
-  background: none !important;
+  background: url("/themes/dcsu_default/images/navigation-arrow.png") no-repeat scroll right center transparent;
   color: white;
 }
 
@@ -421,9 +408,6 @@ span.success,p.success {
 .section {
   border: 0 none;
   /* margin: 0px 0px 20px 0px !important; */
-  width: 980px;
-  margin: 0 auto !important;
-  /* padding-top: 5px !important; */
 }
 
 .bottom,.bottom-union {
@@ -3866,7 +3850,7 @@ abbr {
 
   .header {
     margin-top: 0;
-    padding: 0 !important;
+    padding: 10px 0;
     position: relative;
   }
 
@@ -3901,11 +3885,10 @@ abbr {
     font-family: 'Roboto', sans-serif !important;
     font-weight: normal;
     top: 15px;
-    z-index: 900 !important;
+    z-index: 1001;
     padding: 10px;
     box-shadow: 0 0px 0px #999999;
     font-size: 20px;
-    height: 40px !important;
   }
 
   .phone-menu-icon {
@@ -4396,7 +4379,7 @@ abbr {
   .page-search .search-box .search-box-wrapper {
     position: absolute;
     right: 10px;
-    top: -25px !important;
+    top: 25px !important;
     width: 96% !important;
     z-index: 1001;
     border: 3px solid #CCCCCC;
@@ -7107,8 +7090,6 @@ abbr {
 
 .menu {
   font-size: 0.8em;
-  width: 100% !important;
-  top: -40px;
 }
 
 #latest-articles .article-widget.with-image-description .top-articles li .date {
@@ -7284,7 +7265,7 @@ abbr {
 }
 
 .top-ad {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .top-ad {
@@ -7292,7 +7273,7 @@ abbr {
   padding-bottom: 0px;
   padding-right: 0;
   position: absolute;
-  right: 10px !important; 
+  /* right: 10px !important; */
   top: -105px;
   text-align: right;
   width: auto;
@@ -7340,18 +7321,18 @@ abbr {
   .top-ad {
     left: 0;
     min-height: 70px;
-    padding: 0 0 -6px 0 !important;
+    padding: 0;
     position: relative;
     right: 0;
     top: 0;
-    width: 100%;
+    width: 95%;
   }
 }
 
 @media only screen and (max-width:480px) {
   .top-ad {
     left: 0;
-    padding: 0 0 -6px 0 !important;
+    padding: 0px !important;
     position: relative;
     right: 0;
     top: 0px !important;
