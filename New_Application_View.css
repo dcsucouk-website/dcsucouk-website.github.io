@@ -1,26 +1,3 @@
-.content-wrap {
-  width: 100% !important;
-  /* margin-right: auto !important; */
-  /* background: #d92567; */
-}
-
-.content-wrap {
-  background:#d92567 !important
-}
-
-.column-wrap {
-  /* width: 980px !important; */
-  /* margin: 0 auto !important; */
-  /* padding: 5px 0px !important; */
-  /* background: white; */
-}
-
-.section.column, .section.slider  {
-  padding-top: 5px !important;
-  background:white !important
-  
-}
-
 /* Version 1.10 */
 
 /* Home Page Vertical Advert Styles */
@@ -3053,13 +3030,8 @@ figure img {
 }
 
 .row.header {
-  width: 100%;
-  /* margin: 0px auto 0px !important; */
-  /* padding-bottom: 5px; */
-  /* padding-top: 55px !important; */
-  /* position: absolute !important; */
-  /* top: -40px !important; */
-  height: 184px !important;
+  /* width: 100%; */
+  margin: 0px auto 20px !important;
 }
 
 .onecol,.twocol,.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol,.ninecol,.tencol,.elevencol,.twelvecol {
@@ -3806,11 +3778,8 @@ div#notice.info {
 }
 
 .row.top, .row.top-subsite {
-  /* top: 0; */
-  margin-bottom: 0px !important;
-  width: 100% !important;
-  position: absolute;
-  top: 0px !important;
+  top: 38px;
+  margin-bottom: 20px !important;
 }
 
 .menu {
@@ -3826,7 +3795,6 @@ div#notice.info {
 
 .menu ul {
   list-style: none;
-  display: inline-block;
 }
 
 .menu ul li {
@@ -4579,8 +4547,6 @@ h1 {
 
 #breadcrumb-container {
   clear: both;
-  width: 980px !important;
-  margin: 0 auto;
 }
 
 #breadcrumb {
@@ -21525,7 +21491,7 @@ div.scrollableArea {
 
 #hidden-section {display: none}
 
-#homepage-tabs {margin-top: 0px !important;background: #fff;margin-bottom: 0px !important;padding: 0px !important;}
+#homepage-tabs {margin-top: 10px !important;background: #fff;margin-bottom: 20px !important;padding: 0px !important;}
 #homepage-tabs .tab-content-wrapper-box {height:100% !Important}
 #homepage-tabs .tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all {padding: 0px !important}
 
@@ -21536,27 +21502,10 @@ div.scrollableArea {
 
 
 
-#meet-the-staff {margin-top: 0px !important; background: #fff;margin-bottom: 0px !important; padding: 10px !important}
+#meet-the-staff {margin-top: 10px !important; background: #fff;margin-bottom: 20px !important; padding: 10px !important}
 #meet-the-staff .grid-carousel {height:100% !important;}
 #meet-the-staff .jcarousel-skin-tango {margin-top: 20px !important; margin-bottom: 20px !important}
 #meet-the-staff.section h2 {margin: 0px 0px 0px 10px;}
 #meet-the-staff #meet-the-staff-wrap { margin-left: -10px !important; margin-right: -10px !important; margin-bottom:-10px !important}
 
 .more-article-block, .uc-articles-tags { display: none }
-
-.uc-widget-articles-container {margin-top: 0px !important}
-
-@media screen and (min-width: 768px){
-    .header-wrap {
-        min-height:200px !important;
-    }
-    .union-logo {
-        left:10px !important
-    }
-    .row.header {
-        /* padding-top: 40px !important; */
-    }
-    .top-ad img {
-    width: 100% !important;
-}
-}
