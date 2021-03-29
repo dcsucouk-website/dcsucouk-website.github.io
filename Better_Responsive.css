@@ -46,354 +46,7 @@
     .column.homepage-half-column { width: 100% !important }
     #hide-when-small { display: none }
 
-    /* Added for Groups Widget *//* Version 1.03 */
-
-
-
-.uc-leaderboard-advertisement { 
-    position: static !important;
-    background-color:white !important;
-    
-}
-.uc-leaderboard-advertisement .top-ad {
-    width: 100% !important;
-    margin-bottom:-6px;
-}
-
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 51bef39168bf5d4ab475bf31e5d7fa0898365dd1
-.uc-widget-article-footer { margin-top: 7px }
-
-@media handheld, only screen and (max-width: 470px) {
-    
-    .group-types { margin: 10px 0 0 0 !important }
-    .ninecol.group-list { width: 100% !important }
-    .categoryBox { width: 100% !important; margin-top: 10px !important }
-    .categoryBox.all-groups { padding: 0 !important}
-    .group-category-title h2 { font-size: 1.6em !important }
-    .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
-        font-size: 10vw !important
-    }
-    .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
-        background-color: none !important   
-    }
-} 
-
-@media handheld, only screen and (max-width: 480px) {
-    
-    .group-types { margin: 10px 0 0 0 !important }
-    .ninecol.group-list { width: 100% !important }
-    .categoryBox.all-groups { padding: 0 !important}
-    .categoryBox { width: 100% !important; margin-top: 10px !important }
-    .show_large { display: none !important}
-}
-
-@media screen and (min-width: 481px){
-    .show_small { display: none !important}
-    .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
-        font-size: 8vw !important
-    }
-    .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
-        background-color: #42d9f4 !important;
-    }
-}
-
-@media screen and (max-width: 767px){
-    .homepage-full-column .column-content.homepage-half-column { width: 100% !important; }
-    .column.homepage-half-column { width: 100% !important }
-    #hide-when-small { display: none }
-
     /* Added for Groups Widget */
-    .tree-navigation h3 { margin: 0px !important }
-    .tree-navigation.club-navigation ul li { margin: 0 !important}
-    .content .group-category-title h2 { margin: 0px !important }
-    .group-types { margin: 10px 0 0 0 !important }
-    .ninecol.group-list { width: 100% !important }
-    .categoryBox.all-groups { padding: 0 !important}
-
-}
-
-@media screen and (min-width:768px) {
-    .homepage-full-column .column-content.homepage-half-column { width: 50% !important; }
-    .column.homepage-half-column { padding-left: 10px!important; }
-
-    /* Added for Groups Widget */
-    .tree-navigation h3 { margin: 0 10px !important }
-    .tree-navigation.club-navigation ul li { margin: 0px 10px !important}
-    .content .group-category-title h2 { margin: 0 10px 0 10px !important }    
-    .group-types {margin: 10px 10px 10px 10px !important;}
-    .categoryBox.all-groups { padding-right: 10px !important}
-    .page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
-        font-size: 6vw !important
-    }
-    .page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
-        background-color: #42d9f4 !important;
-    }
-}
-
-
-.articleImg {
-    max-width: 100%;
-    max-height: 400px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-div#latest-events-column-column-content {}
-.homepage-half-column-content { clear: both !important; }
-.homepage-half-column-header { width: 100% !important; }
-.homepage-half-column-content { width: 100% !important; }
-
-#new-column-wrap { width:100% !important }
-
-.threecol {width: 25% !important;}
-
-@media screen and (min-width: 981px){
-.ninecol {}
-.threecol {}
-}
-
-@media screen and (max-width: 980px){
-    #union-logo { margin-left: 10px !important;}
-}
-
-@media screen and (min-width: 840px) {
-    /*#union-logo a { margin-left: 0px !important; }*/
-    
-    .hidden-below-840px { display: visible !important}
-    .hidden-above-840px { display: none !important}
-}
-@media screen and (max-width: 840px){
-    
-    .hidden-below-840px { display: none !important}
-    .hidden-above-840px { display: visible !important}
-}
-@media screen and (min-width:768px) {
-.ninecol {}
-.threecol {}
-.content .row .content-wrap.ninecol > div {
-  background: url(/themes/dcsu_default/images/content-left-bg.png) no-repeat left top;
-  padding: 0 10px 0 10px !important;
-}
-.threecol-img-banner {display: visible}
-.full-img-banner { display: none}
-.uc-widget-articles-container {/* padding: 10px !important; */}
-    .uc-widget-student-voices-wrapper { padding: 0px 10px 0px 0px !important }
-#social-content-wrap { padding: 10px !important; }
-#twitter-feed-column-content, #eventspanel-column-content {/* margin-left: 10px; */}
-
-}
-
-@media screen and (min-width:481px) and (max-width: 767px){
-.ninecol { width:100% !important;}
-.threecol {width: 100% !important;margin: 0px !important;clear: both !important;float: left !important; }
-.uc-widget-student-voices-wrapper {padding:0px 10px !important}
-.content-wrap.home-content-wrap.subsites.ninecol.last {padding-left:0px;}
-#footer .fourcol.column-content { clear: none !important; float: left !important; width: 50% !important; margin: auto !important}
-}
-
-
-/* ////////////   ALL TIME */
-.page-content-html .content { max-width: 980px !important; width:100% !important; }
-
-
-@media screen and  (min-width: 981px){
-.hidden-xl {display: none; }
-#union-logo { margin: 10px 10px !important }
-}
-
-@media screen and  (max-width: 980px){
-
-.ninecol {}
-.threecol {}
-.hidden-lg {display:none;}
-#union-logo {/* margin: 0px !important */}
-}
-
-@media screen and (max-width: 767px){
-#eventspanel-column-content p iframe {max-height: 400px}
-#twitter-feed-column-content p iframe {max-height: 400px}
-#homepage-tabs, #meet-the-staff {/* margin: -10px -10px -10px -10px !important */padding: 0px !important;}
-#homepage-tabs li.ui-state-default {width: 100%;}
-#homepage-tabs .grid-carousel .jcarousel-skin-tango { margin-bottom :10px !important }
-#new-column { padding:10px 10px 0px 10px !important}
-#eventspanel-column-content, #twitter-feed-column-content { width: 100% }
-#twitter-feed-column-content .uc-page-wrap, #twitter-feed-column-content .edit-mode-page, #eventspanel-column-content .edit-mode-page, #eventspanel-column-content .uc-mode-page { margin : 0px }
-#main-menu .nav-wrap ul {
-  margin-top:56px !important;
-}
-.content-wrap.ninecol > div { padding: 0px !important }
-.threecol.left-nav-content { width:100% !important}
-.threecol.left-nav-content .tree-navigation-structure {margin-left:0px !important}
-.threecol-img-banner {display: none}
-.full-img-banner { display: visible}
-#main-menu .nav-wrap ul li ul{
-  margin-top:0px !important;
-}
-
-.ninecol {}
-.row.content .threecol.last {width: 100% !important;}
-#your-voice-banner, #eventspanelhead { padding: 10px 10px 0px 10px !important; margin: 0px !important}
-#homepage-right-panel, #events-column, #student-voice-column { padding: 0px 10px 10px 10px !important; margin: 0px !important}
-.uc-widget-articles-container { padding: 10px 0px 10px 0px !important; }
-#social-content-wrap { padding:0px !important; }
-.hidden-md {display:none;}
-
-.header-wrap {
-    position: absolute;
-    top: 0px !important;
-    padding: 0px !important;
-    min-height: 220px !important;
-}
-
-#union-logo {
-    position: absolute !important;
-    top: 35px !important;
-}
-
-.cart-account { 
-    position: absolute !important;
-    top: 0px !important;
-    right: 0px !important;
-    
-}
-
-.search.page-search {
-    position: absolute !important;
-    top: 170px !important;
-    height: 20px !important;
-}
-
-.top-ad {
-    /* position: absolute !important; */
-    /* top: 100px !important; */
-    /* left:0px !important; */
-    /* height:50px !important; */
-    /* z-index: 1000; */
-    padding: 0px !important;
-}
-}
-
-@media screen and (max-width: 480px){    
-#eventspanel-column-content p iframe {max-height: 300px}
-#twitter-feed-column-content p iframe {max-height: 300px}
-
-.ninecol {}
-.threecol {width: 100% !important;clear: both !important;float: left !important; margin:0px !important}
-.uc-widget-student-voices-wrapper {    padding: 0px !important;}
-#footer .fourcol.column-content { clear: both !important; float: left !important; width: 100% !important; margin: auto !important}
-.uc-articles-module-wrapper .featured-image img { width:100% !important }
-#latest-articles .uc-widget-article-header .uc-widget-article-more-link {
-  display: none;
-}
-}
-
-@media screen and (max-width: 480px){
-    
-.row.content .threecol.last {width: 100% !important;}
-#homepage-right-panel {/* max-width: 100% !important; *//* padding: 10px !important; *//* margin: 0px !important; */}
-.ninecol {}
-.threecol {}
-.uc-widget-student-voices-wrapper {}
-.hidden-sm {display:none; }
-}
-
-@media screen and (min-width: 941px){
-   // .row {margin:0px 4% 0px 4% !important;}
-   #volunteering-home-grid .jcarousel-prev {display: none !important; }
-   #volunteering-home-grid .jcarousel-next {display: none !important; }
-}
-
-.page-content-html .wrapper .row.content h1:first-of-type, .content-wrap.subsites h1:first-of-type {
-    font-family: 'Fredericka the Great', cursive !important;
-    position: relative;
-    //font-size: 6vw !important;
-    line-height: .9em;
-    color: #000;
-    text-shadow: -5px 5px 0 rgba(40,40,40,0.3);
-    text-shadow: -5px 5px 0 #ddd;
-    word-break: break-word;
-    border-bottom: 0;
-    padding: 0px !important;
-    z-index: 1;
-    top: 10px !important;
-    margin: 0px 0px 30px 10px !important;
-    background:  none !important;
-}
-.page-content-html .wrapper .row.content h1:first-of-type:before, .content-wrap.subsites h1:first-of-type:before {
-    content: '';
-    position: absolute;
-    left: 6%;
-    top: 0;
-    opacity: .3;
-    width: 60%;
-    height: 90%;
-    //background-color: #42d9f4;
-    z-index: -1;
-}
-.content .row .content-wrap.ninecol > div { background: none !important}
-.uc-widget-articles-container {background-color: white;padding: 0px 10px;}
-.uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail>a img { width: 100% }
-.uc-widget-article-header {/* display: none; *//* visibility: hidden; */height: 50px !important;background: #384352 !important;}
-.uc-widget-article-more-link a::before { content: ' '; }
-.uc-widget-article-more-link a::after { content: ' '; }
-.uc-widget-article-more-link a {/* background-color: #252c36; */color: white !important;}
-
-.uc-widget-student-voices-wrapper {background-color: white; height: 100%; padding: 0px 10px 0px 10px}
-.threecol.left-nav-content {/* margin: 0px 0px 0px 10px *//* padding-left: 10px; */} 
-.bottom, .bottom-union { background: #FFF !important }
-.wrapper {background: transparent !important }
-html
-    {
-        //background-color: black !important;
-        background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;        background-color: #010440 !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-        background-position: center !important;
-        background-attachment: fixed !important;
-    }
-.nav-wrap {
-    background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white;
-    position: relative;
-    margin: 0 auto;
-    height: 40px;
-}
-.section.grid {/* margin-top: 10px !important; */margin-bottom: 10px;background: white;}
-.section.grid h2 { margin-left: 5px; margin-top: 5px}
-
-#columned {
-    padding: 0px;
-    background: #fff;
-    margin: 10px 0px 10px 0px;
-}
-#columned-wrap {margin: 0px 10px 0px 10px;}
-.tab .ui-widget-header {/* background: #FFF !important */}
-.tab .ui-tabs .ui-tabs-panel { background: none !important}
-.row.content {background: #FFF;}
-
-.threecol.last {float: right;width: 25% !important;}
-.ninecol {width: 75%; margin-right: 0px }
-.uc-student-voice-widget-category li a { font-size: 19px !important }
-#union-logo a { background: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120027/optimized/SU_General_Logo_-_LARGE_TRANSPARENT_WHITE_OUTLINE.png') no-repeat scroll center center transparent !important; background-size: 100% !important}
-
-#home-column-1.section {margin: 0px auto !important;}
-
-#uc-articles-details .eightcol { width:100% !important }
-
-#uc-articles-details { margin: 10px 5px !important }
-
-.article-details-wrapper .time { display: none !important }
-
-#twitter-feed-column-content .uc-page-wrap, #facebook-feed-column-content .uc-page-wrap {/* width:100% !important; *//* padding-left:10px !important */}
-
-.section.column.personal-blog-box .uc-widget-articles-container { padding: 0px }
-
     .tree-navigation h3 { margin: 0px !important }
     .tree-navigation.club-navigation ul li { margin: 0 !important}
     .content .group-category-title h2 { margin: 0px !important }
@@ -529,11 +182,11 @@ div#latest-events-column-column-content {}
 #social-content-wrap { padding:0px !important; }
 .hidden-md {display:none;}
 
-.header-wrap {
+.header-wrap { 
     position: absolute;
-    /* top:40px !important; */
+    top:40px !important;
     padding: 0px !important;
-    height: 190px !important;
+    height: 220px !important;
 }
 
 #union-logo {
@@ -550,7 +203,7 @@ div#latest-events-column-column-content {}
 
 .search.page-search {
     position: absolute !important;
-    top: 170px !important;
+    top: 150px !important;
     height: 20px !important;
 }
 
@@ -560,7 +213,6 @@ div#latest-events-column-column-content {}
     /* left:0px !important; */
     /* height:50px !important; */
     /* z-index: 1000; */
-    padding: 0px !important;
 }
 }
 
@@ -635,22 +287,18 @@ div#latest-events-column-column-content {}
 .wrapper {background: transparent !important }
 html
     {
-        //
-        background-color: black !important;
-        /* background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important; */
-        background-color: white !important;
+        //background-color: black !important;
+        background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/120014/optimized/Derby-College-1400-x-700.jpg') !important;        background-color: #010440 !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
         background-attachment: fixed !important;
     }
 .nav-wrap {
-    /* background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white; */
+    background: url(/themes/dcsu_default/images/header-menu-bg.png) no-repeat scroll top center white;
     position: relative;
     margin: 0 auto;
     height: 40px;
-    background: black;
-    text-align: center;
 }
 .section.grid {/* margin-top: 10px !important; */margin-bottom: 10px;background: white;}
 .section.grid h2 { margin-left: 5px; margin-top: 5px}
@@ -663,7 +311,7 @@ html
 #columned-wrap {margin: 0px 10px 0px 10px;}
 .tab .ui-widget-header {/* background: #FFF !important */}
 .tab .ui-tabs .ui-tabs-panel { background: none !important}
-.row.content {/* background: #d92567; *//* padding-top: 5px; */}
+.row.content {background: #FFF;}
 
 .threecol.last {float: right;width: 25% !important;}
 .ninecol {width: 75%; margin-right: 0px }
@@ -681,19 +329,3 @@ html
 #twitter-feed-column-content .uc-page-wrap, #facebook-feed-column-content .uc-page-wrap {/* width:100% !important; *//* padding-left:10px !important */}
 
 .section.column.personal-blog-box .uc-widget-articles-container { padding: 0px }
-
-@media screen and (min-width: 768px){
-    .header-wrap {
-        min-height:200px !important;
-    }
-    .union-logo {
-        left:10px !important
-    }
-    .row.header {
-        /* padding-top: 40px !important; */
-    }
-    .top-ad img {
-    width: 100% !important;
-}
-}
-
