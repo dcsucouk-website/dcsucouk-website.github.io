@@ -125,16 +125,12 @@ em strong,strong em {
 
 #union-logo a {
 /* height: 125px !important; *//* width: 200px !important; */
-  background: url("/themes/dcsu_default/images/unioncloud-logo.png") no-repeat scroll center center transparent;
+ // background: url("/themes/dcsu_default/images/unioncloud-logo.png") no-repeat scroll center center transparent;
   display: block;
   position: relative;
   z-index: 1000;
   margin-left: 10px;
-  background-size: 200px !important;
-}
-
-#union-logo a h1 {
-  display: none;
+//  background-size: 200px !important;
 }
 
 .logged-in {
