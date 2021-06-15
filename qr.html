@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+<body>
+Survey URL : <input type="text" id="url" value="" / ><br/>
+Section Code : <input type="text" id="section" value="" / > (Try 'START', 'STARBUCKS' or 'STUDENTSUNION')<br/>
+<input type="button" onClick="javascript:genCode()" value="Create QR" /><br/>
+<div id="link"></div>
+<br/><br/>
+
+<div id="qrcode"></div>
+
+<script>
+
+var qrcode = new QRCode("qrcode");
+
+function genCode(){
+	var code = document.getElementById("url").value;
+		code += '&ctx={\"Section\":\"' + encodeURI(document.getElementById("section").value) + '\"}'
+	var newqrcode = qrcode.makeCode(code);
+
+	document.getElementById("link").innerHTML = "<a href='" + code + "' target='_blank'>" + code + "</a>"
+
+}
+
+</script>
+
+</body>
